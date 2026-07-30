@@ -1,0 +1,994 @@
+[
+    {
+        "category": "Biography",
+        "question": "Who is Dr. Supreet Khare?",
+        "expected_facts": [
+            "physician",
+            "Managing Director",
+            "CEO",
+            "Compendious Med Works"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Has Dr. Khare published any fiction novels?",
+        "expected_facts": [
+            "fiction novel",
+            "Tales of Enkanto",
+            "A Paradoxical Beginning"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "What languages does Dr. Khare speak?",
+        "expected_facts": [
+            "English",
+            "Hindi",
+            "Urdu",
+            "Punjabi",
+            "Marathi",
+            "Spanish"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Where did Dr. Khare complete his residency?",
+        "expected_facts": [
+            "University of Arizona",
+            "Tucson",
+            "Internal Medicine Residency"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "What medical school did Dr. Khare attend for MBBS?",
+        "expected_facts": [
+            "Armed Forces Medical College",
+            "AFMC",
+            "Pune",
+            "India"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "What professional certificates does Dr. Khare hold?",
+        "expected_facts": [
+            "Professional Diploma in Clinical Research",
+            "PDCR",
+            "Professional Certificate in Pharmacovigilance",
+            "PCPV"
+        ],
+        "expected_document": "certifications.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Where did Dr. Khare work before moving to the USA?",
+        "expected_facts": [
+            "Fortis Memorial Research Institute",
+            "Medanta",
+            "Paras Hospital"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Did he have a role at Lompoc Valley Medical Center?",
+        "expected_facts": [
+            "Medical Director",
+            "Occupational",
+            "Environmental Medicine"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Where did he work as an Occupational Medicine Resident?",
+        "expected_facts": [
+            "University of Cincinnati",
+            "Ohio"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "Where is Compendious Med Works located?",
+        "expected_facts": [
+            "Tucson",
+            "Arizona",
+            "United States"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "Where is Health First Multi Specialty Clinic located?",
+        "expected_facts": [
+            "Dwarka",
+            "New Delhi"
+        ],
+        "expected_document": "knowledge_boundaries.txt"
+    },
+    {
+        "category": "Research",
+        "question": "What clinical trials has Dr. Khare been involved in?",
+        "expected_facts": [
+            "Principal Investigator",
+            "COPE Trial",
+            "University of Arizona"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Did Dr. Khare do any quality improvement research in the ICU?",
+        "expected_facts": [
+            "Diabetic Ketoacidosis",
+            "Banner University Medical Center"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Where was he a Research Fellow?",
+        "expected_facts": [
+            "Institute of Bioinformatics",
+            "Johns Hopkins University"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "What journal did he publish in regarding COVID-19?",
+        "expected_facts": [
+            "Cureus",
+            "COVID-19 pulmonary complications",
+            "steroids"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "What was the topic of his paper 'Pseudodementia'?",
+        "expected_facts": [
+            "Pseudodementia",
+            "peer-reviewed"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Did he receive the ICMR Research Scholarship?",
+        "expected_facts": [
+            "ICMR",
+            "five consecutive years",
+            "first and only undergraduate"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Who awarded him the Champion's Trophy?",
+        "expected_facts": [
+            "Nobel Laureate",
+            "Dr. Robin Warren"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Has Dr. Khare received any academic gold medals?",
+        "expected_facts": [
+            "Gold Medals",
+            "Pathology",
+            "Microbiology",
+            "MBBS"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Was he nominated for a Young Scientist award?",
+        "expected_facts": [
+            "Brigadier S.K. Mazumdar",
+            "Young Scientist Award"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "What professional organizations is Dr. Khare a member of in the US?",
+        "expected_facts": [
+            "American College of Physicians",
+            "ACP"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "Is Dr. Khare registered with any medical councils in India?",
+        "expected_facts": [
+            "Delhi Medical Council",
+            "Rajasthan Medical Council",
+            "Indian Medical Association"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "What was his role during his residency at South Campus?",
+        "expected_facts": [
+            "Chief Resident",
+            "South Campus",
+            "University of Arizona"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Has he held any leadership positions at medical student associations?",
+        "expected_facts": [
+            "State President",
+            "Medical Students Association of India",
+            "MSAI"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Did he have a leadership role at California Medical Behavioral Health?",
+        "expected_facts": [
+            "Chief Executive Officer",
+            "CMBH"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Can you tell me: Who is Dr. Supreet Khare?",
+        "expected_facts": [
+            "physician",
+            "Managing Director",
+            "CEO",
+            "Compendious Med Works"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Can you tell me: Has Dr. Khare published any fiction novels?",
+        "expected_facts": [
+            "fiction novel",
+            "Tales of Enkanto",
+            "A Paradoxical Beginning"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Can you tell me: What languages does Dr. Khare speak?",
+        "expected_facts": [
+            "English",
+            "Hindi",
+            "Urdu",
+            "Punjabi",
+            "Marathi",
+            "Spanish"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Can you tell me: Where did Dr. Khare complete his residency?",
+        "expected_facts": [
+            "University of Arizona",
+            "Tucson",
+            "Internal Medicine Residency"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Can you tell me: What medical school did Dr. Khare attend for MBBS?",
+        "expected_facts": [
+            "Armed Forces Medical College",
+            "AFMC",
+            "Pune",
+            "India"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Can you tell me: What professional certificates does Dr. Khare hold?",
+        "expected_facts": [
+            "Professional Diploma in Clinical Research",
+            "PDCR",
+            "Professional Certificate in Pharmacovigilance",
+            "PCPV"
+        ],
+        "expected_document": "certifications.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Can you tell me: Where did Dr. Khare work before moving to the USA?",
+        "expected_facts": [
+            "Fortis Memorial Research Institute",
+            "Medanta",
+            "Paras Hospital"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Can you tell me: Did he have a role at Lompoc Valley Medical Center?",
+        "expected_facts": [
+            "Medical Director",
+            "Occupational",
+            "Environmental Medicine"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Can you tell me: Where did he work as an Occupational Medicine Resident?",
+        "expected_facts": [
+            "University of Cincinnati",
+            "Ohio"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "Can you tell me: Where is Compendious Med Works located?",
+        "expected_facts": [
+            "Tucson",
+            "Arizona",
+            "United States"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "Can you tell me: Where is Health First Multi Specialty Clinic located?",
+        "expected_facts": [
+            "Dwarka",
+            "New Delhi"
+        ],
+        "expected_document": "knowledge_boundaries.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Can you tell me: What clinical trials has Dr. Khare been involved in?",
+        "expected_facts": [
+            "Principal Investigator",
+            "COPE Trial",
+            "University of Arizona"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Can you tell me: Did Dr. Khare do any quality improvement research in the ICU?",
+        "expected_facts": [
+            "Diabetic Ketoacidosis",
+            "Banner University Medical Center"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Can you tell me: Where was he a Research Fellow?",
+        "expected_facts": [
+            "Institute of Bioinformatics",
+            "Johns Hopkins University"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "Can you tell me: What journal did he publish in regarding COVID-19?",
+        "expected_facts": [
+            "Cureus",
+            "COVID-19 pulmonary complications",
+            "steroids"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "Can you tell me: What was the topic of his paper 'Pseudodementia'?",
+        "expected_facts": [
+            "Pseudodementia",
+            "peer-reviewed"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Can you tell me: Did he receive the ICMR Research Scholarship?",
+        "expected_facts": [
+            "ICMR",
+            "five consecutive years",
+            "first and only undergraduate"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Can you tell me: Who awarded him the Champion's Trophy?",
+        "expected_facts": [
+            "Nobel Laureate",
+            "Dr. Robin Warren"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Can you tell me: Has Dr. Khare received any academic gold medals?",
+        "expected_facts": [
+            "Gold Medals",
+            "Pathology",
+            "Microbiology",
+            "MBBS"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Can you tell me: Was he nominated for a Young Scientist award?",
+        "expected_facts": [
+            "Brigadier S.K. Mazumdar",
+            "Young Scientist Award"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "Can you tell me: What professional organizations is Dr. Khare a member of in the US?",
+        "expected_facts": [
+            "American College of Physicians",
+            "ACP"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "Can you tell me: Is Dr. Khare registered with any medical councils in India?",
+        "expected_facts": [
+            "Delhi Medical Council",
+            "Rajasthan Medical Council",
+            "Indian Medical Association"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Can you tell me: What was his role during his residency at South Campus?",
+        "expected_facts": [
+            "Chief Resident",
+            "South Campus",
+            "University of Arizona"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Can you tell me: Has he held any leadership positions at medical student associations?",
+        "expected_facts": [
+            "State President",
+            "Medical Students Association of India",
+            "MSAI"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Can you tell me: Did he have a leadership role at California Medical Behavioral Health?",
+        "expected_facts": [
+            "Chief Executive Officer",
+            "CMBH"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "I want to know who is dr. supreet khare?",
+        "expected_facts": [
+            "physician",
+            "Managing Director",
+            "CEO",
+            "Compendious Med Works"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "I want to know has dr. khare published any fiction novels?",
+        "expected_facts": [
+            "fiction novel",
+            "Tales of Enkanto",
+            "A Paradoxical Beginning"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "I want to know what languages does dr. khare speak?",
+        "expected_facts": [
+            "English",
+            "Hindi",
+            "Urdu",
+            "Punjabi",
+            "Marathi",
+            "Spanish"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Education",
+        "question": "I want to know where did dr. khare complete his residency?",
+        "expected_facts": [
+            "University of Arizona",
+            "Tucson",
+            "Internal Medicine Residency"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "I want to know what medical school did dr. khare attend for mbbs?",
+        "expected_facts": [
+            "Armed Forces Medical College",
+            "AFMC",
+            "Pune",
+            "India"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "I want to know what professional certificates does dr. khare hold?",
+        "expected_facts": [
+            "Professional Diploma in Clinical Research",
+            "PDCR",
+            "Professional Certificate in Pharmacovigilance",
+            "PCPV"
+        ],
+        "expected_document": "certifications.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "I want to know where did dr. khare work before moving to the usa?",
+        "expected_facts": [
+            "Fortis Memorial Research Institute",
+            "Medanta",
+            "Paras Hospital"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "I want to know did he have a role at lompoc valley medical center?",
+        "expected_facts": [
+            "Medical Director",
+            "Occupational",
+            "Environmental Medicine"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "I want to know where did he work as an occupational medicine resident?",
+        "expected_facts": [
+            "University of Cincinnati",
+            "Ohio"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "I want to know where is compendious med works located?",
+        "expected_facts": [
+            "Tucson",
+            "Arizona",
+            "United States"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "I want to know where is health first multi specialty clinic located?",
+        "expected_facts": [
+            "Dwarka",
+            "New Delhi"
+        ],
+        "expected_document": "knowledge_boundaries.txt"
+    },
+    {
+        "category": "Research",
+        "question": "I want to know what clinical trials has dr. khare been involved in?",
+        "expected_facts": [
+            "Principal Investigator",
+            "COPE Trial",
+            "University of Arizona"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Research",
+        "question": "I want to know did dr. khare do any quality improvement research in the icu?",
+        "expected_facts": [
+            "Diabetic Ketoacidosis",
+            "Banner University Medical Center"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Research",
+        "question": "I want to know where was he a research fellow?",
+        "expected_facts": [
+            "Institute of Bioinformatics",
+            "Johns Hopkins University"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "I want to know what journal did he publish in regarding covid-19?",
+        "expected_facts": [
+            "Cureus",
+            "COVID-19 pulmonary complications",
+            "steroids"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "I want to know what was the topic of his paper 'pseudodementia'?",
+        "expected_facts": [
+            "Pseudodementia",
+            "peer-reviewed"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "I want to know did he receive the icmr research scholarship?",
+        "expected_facts": [
+            "ICMR",
+            "five consecutive years",
+            "first and only undergraduate"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "I want to know who awarded him the champion's trophy?",
+        "expected_facts": [
+            "Nobel Laureate",
+            "Dr. Robin Warren"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "I want to know has dr. khare received any academic gold medals?",
+        "expected_facts": [
+            "Gold Medals",
+            "Pathology",
+            "Microbiology",
+            "MBBS"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "I want to know was he nominated for a young scientist award?",
+        "expected_facts": [
+            "Brigadier S.K. Mazumdar",
+            "Young Scientist Award"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "I want to know what professional organizations is dr. khare a member of in the us?",
+        "expected_facts": [
+            "American College of Physicians",
+            "ACP"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "I want to know is dr. khare registered with any medical councils in india?",
+        "expected_facts": [
+            "Delhi Medical Council",
+            "Rajasthan Medical Council",
+            "Indian Medical Association"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "I want to know what was his role during his residency at south campus?",
+        "expected_facts": [
+            "Chief Resident",
+            "South Campus",
+            "University of Arizona"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "I want to know has he held any leadership positions at medical student associations?",
+        "expected_facts": [
+            "State President",
+            "Medical Students Association of India",
+            "MSAI"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "I want to know did he have a leadership role at california medical behavioral health?",
+        "expected_facts": [
+            "Chief Executive Officer",
+            "CMBH"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Regarding Dr. Khare, who is dr. supreet khare?",
+        "expected_facts": [
+            "physician",
+            "Managing Director",
+            "CEO",
+            "Compendious Med Works"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Regarding Dr. Khare, has dr. khare published any fiction novels?",
+        "expected_facts": [
+            "fiction novel",
+            "Tales of Enkanto",
+            "A Paradoxical Beginning"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Biography",
+        "question": "Regarding Dr. Khare, what languages does dr. khare speak?",
+        "expected_facts": [
+            "English",
+            "Hindi",
+            "Urdu",
+            "Punjabi",
+            "Marathi",
+            "Spanish"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Regarding Dr. Khare, where did dr. khare complete his residency?",
+        "expected_facts": [
+            "University of Arizona",
+            "Tucson",
+            "Internal Medicine Residency"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Regarding Dr. Khare, what medical school did dr. khare attend for mbbs?",
+        "expected_facts": [
+            "Armed Forces Medical College",
+            "AFMC",
+            "Pune",
+            "India"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Education",
+        "question": "Regarding Dr. Khare, what professional certificates does dr. khare hold?",
+        "expected_facts": [
+            "Professional Diploma in Clinical Research",
+            "PDCR",
+            "Professional Certificate in Pharmacovigilance",
+            "PCPV"
+        ],
+        "expected_document": "certifications.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Regarding Dr. Khare, where did dr. khare work before moving to the usa?",
+        "expected_facts": [
+            "Fortis Memorial Research Institute",
+            "Medanta",
+            "Paras Hospital"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Regarding Dr. Khare, did he have a role at lompoc valley medical center?",
+        "expected_facts": [
+            "Medical Director",
+            "Occupational",
+            "Environmental Medicine"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Clinical Experience",
+        "question": "Regarding Dr. Khare, where did he work as an occupational medicine resident?",
+        "expected_facts": [
+            "University of Cincinnati",
+            "Ohio"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "Regarding Dr. Khare, where is compendious med works located?",
+        "expected_facts": [
+            "Tucson",
+            "Arizona",
+            "United States"
+        ],
+        "expected_document": "employment.txt"
+    },
+    {
+        "category": "Clinic Information",
+        "question": "Regarding Dr. Khare, where is health first multi specialty clinic located?",
+        "expected_facts": [
+            "Dwarka",
+            "New Delhi"
+        ],
+        "expected_document": "knowledge_boundaries.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Regarding Dr. Khare, what clinical trials has dr. khare been involved in?",
+        "expected_facts": [
+            "Principal Investigator",
+            "COPE Trial",
+            "University of Arizona"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Regarding Dr. Khare, did dr. khare do any quality improvement research in the icu?",
+        "expected_facts": [
+            "Diabetic Ketoacidosis",
+            "Banner University Medical Center"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Research",
+        "question": "Regarding Dr. Khare, where was he a research fellow?",
+        "expected_facts": [
+            "Institute of Bioinformatics",
+            "Johns Hopkins University"
+        ],
+        "expected_document": "research.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "Regarding Dr. Khare, what journal did he publish in regarding covid-19?",
+        "expected_facts": [
+            "Cureus",
+            "COVID-19 pulmonary complications",
+            "steroids"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Publications",
+        "question": "Regarding Dr. Khare, what was the topic of his paper 'pseudodementia'?",
+        "expected_facts": [
+            "Pseudodementia",
+            "peer-reviewed"
+        ],
+        "expected_document": "publications.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Regarding Dr. Khare, did he receive the icmr research scholarship?",
+        "expected_facts": [
+            "ICMR",
+            "five consecutive years",
+            "first and only undergraduate"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Regarding Dr. Khare, who awarded him the champion's trophy?",
+        "expected_facts": [
+            "Nobel Laureate",
+            "Dr. Robin Warren"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Regarding Dr. Khare, has dr. khare received any academic gold medals?",
+        "expected_facts": [
+            "Gold Medals",
+            "Pathology",
+            "Microbiology",
+            "MBBS"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Awards",
+        "question": "Regarding Dr. Khare, was he nominated for a young scientist award?",
+        "expected_facts": [
+            "Brigadier S.K. Mazumdar",
+            "Young Scientist Award"
+        ],
+        "expected_document": "awards.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "Regarding Dr. Khare, what professional organizations is dr. khare a member of in the us?",
+        "expected_facts": [
+            "American College of Physicians",
+            "ACP"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Memberships",
+        "question": "Regarding Dr. Khare, is dr. khare registered with any medical councils in india?",
+        "expected_facts": [
+            "Delhi Medical Council",
+            "Rajasthan Medical Council",
+            "Indian Medical Association"
+        ],
+        "expected_document": "biography.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Regarding Dr. Khare, what was his role during his residency at south campus?",
+        "expected_facts": [
+            "Chief Resident",
+            "South Campus",
+            "University of Arizona"
+        ],
+        "expected_document": "education_training.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Regarding Dr. Khare, has he held any leadership positions at medical student associations?",
+        "expected_facts": [
+            "State President",
+            "Medical Students Association of India",
+            "MSAI"
+        ],
+        "expected_document": "memberships_leadership.txt"
+    },
+    {
+        "category": "Leadership",
+        "question": "Regarding Dr. Khare, did he have a leadership role at california medical behavioral health?",
+        "expected_facts": [
+            "Chief Executive Officer",
+            "CMBH"
+        ],
+        "expected_document": "employment.txt"
+    }
+]

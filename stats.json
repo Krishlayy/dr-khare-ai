@@ -1,0 +1,202 @@
+{
+  "total": 500,
+  "passed": 115,
+  "failed": 385,
+  "correct_refusals_count": 64,
+  "formatting_mismatches_count": 1,
+  "retrieval_failures_count": 23,
+  "missing_facts_count": 14,
+  "hallucinations_count": 283,
+  "correct_refusals": [
+    {
+      "ID": "15",
+      "Question": "When did Dr. Khare complete his PDCR?",
+      "Expected Answer": "April 2016 to September 2016; awarded October 2016",
+      "Actual Answer": "There is no information provided about Dr. Supreet Khare completing a PDCR (Postdoctoral Certificate in Research) in the given documents.",
+      "Pass": "False"
+    },
+    {
+      "ID": "34",
+      "Question": "What is Dr. Khare's DEA Registration number?",
+      "Expected Answer": "FB5026542-166839",
+      "Actual Answer": "Not stated in the verified source documents.",
+      "Pass": "False"
+    },
+    {
+      "ID": "38",
+      "Question": "What pseudonym does Dr. Khare use as an author?",
+      "Expected Answer": "Dr. Sparkle",
+      "Actual Answer": "The pseudonym used by Dr. Khare as an author is not explicitly mentioned in the provided documents.",
+      "Pass": "False"
+    },
+    {
+      "ID": "43",
+      "Question": "What is Dr. Khare's proficiency level in Hindi?",
+      "Expected Answer": "Native/Functional \u2013 converses easily and accurately; highly educated native speakers may think he is native",
+      "Actual Answer": "Dr. Supreet Khare has an Advanced proficiency in English. There is no information provided about her proficiency level in Hindi.",
+      "Pass": "False"
+    },
+    {
+      "ID": "45",
+      "Question": "What role did Dr. Khare hold in IFMSA-MSAI?",
+      "Expected Answer": "State President of Uttar Pradesh",
+      "Actual Answer": "The provided documents do not contain any information about Dr. Khare's role in IFMSA-MSAI.",
+      "Pass": "False"
+    }
+  ],
+  "formatting_mismatches": [
+    {
+      "ID": "320",
+      "Question": "What is the 2015 publication status of Dr. Khare's TIA risk factors paper?",
+      "Expected Answer": "Provisionally accepted in Journal of Mid Life Health (August 2015); status was not confirmed as fully published in the CV",
+      "Actual Answer": "Provisionally Accepted.",
+      "Pass": "False"
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "ID": "10",
+      "Question": "When did Dr. Khare receive his MBBS degree?",
+      "Expected Answer": "May 22, 2015",
+      "Actual Answer": "Dr. Supreet Khare received his MBBS degree in May 2015 from the Armed Forces Medical College, Pune, India.",
+      "Pass": "False"
+    },
+    {
+      "ID": "13",
+      "Question": "When did Dr. Khare complete his PCPV from Catalyst Clinical?",
+      "Expected Answer": "June 2016 to December 2016; awarded February 2017",
+      "Actual Answer": "Dr. Khare completed his Professional Certificate in Pharmacovigilance (PCPV) from Catalyst Clinical, New Delhi, India from June 2016 to December 2016.",
+      "Pass": "False"
+    },
+    {
+      "ID": "19",
+      "Question": "When did Dr. Khare's Internal Medicine residency run?",
+      "Expected Answer": "July 2016 to January 2019",
+      "Actual Answer": "Dr. Khare's Internal Medicine Residency ran from 03/2015 to 04/2016 and then from 06/2016 to 01/2019.",
+      "Pass": "False"
+    },
+    {
+      "ID": "21",
+      "Question": "When did Dr. Khare's Occupational Medicine residency run?",
+      "Expected Answer": "July 2023 to July 2025",
+      "Actual Answer": "Dr. Khare's Occupational Medicine residency ran from 07/2023 to 07/2025 at University of Cincinnati, Cincinnati, OH.",
+      "Pass": "False"
+    },
+    {
+      "ID": "24",
+      "Question": "When did Dr. Khare start his role at Lompoc Valley Medical Center?",
+      "Expected Answer": "2025 \u2013 Present",
+      "Actual Answer": "Dr. Supreet Khare started his role as Medical Director \u2013 Occupational and Environmental Medicine at Lompoc Valley Medical Center in 2024.",
+      "Pass": "False"
+    },
+    {
+      "ID": "26",
+      "Question": "When did Dr. Khare start working at Signify Health Texas?",
+      "Expected Answer": "2024 \u2013 Present",
+      "Actual Answer": "Dr. Khare started working at Signify Health Texas in 2024.",
+      "Pass": "False"
+    },
+    {
+      "ID": "28",
+      "Question": "When did Dr. Khare become CEO of California Medical Behavioral Health?",
+      "Expected Answer": "October 2021 \u2013 Present",
+      "Actual Answer": "Dr. Supreet Khare became Chief Executive Officer (CEO) of California Medical Behavioral Health in 10/2021.",
+      "Pass": "False"
+    },
+    {
+      "ID": "30",
+      "Question": "When did Dr. Khare join Compendious Med Works Pvt. Ltd?",
+      "Expected Answer": "December 2019 \u2013 Present",
+      "Actual Answer": "Dr. Khare joined Compendious Med Works Pvt. Ltd in 12/2019.",
+      "Pass": "False"
+    },
+    {
+      "ID": "55",
+      "Question": "When did Dr. Khare complete his sub-internship at Cook County Hospital?",
+      "Expected Answer": "March 2015 (28 days, averaging 70 hours/week), in the Trauma department",
+      "Actual Answer": "Dr. Khare completed his sub-internship at John H. Stroger, Jr. Hospital of Cook County from 03/2015 to 04/2015.",
+      "Pass": "False"
+    },
+    {
+      "ID": "103",
+      "Question": "When did Dr. Khare complete his research fellowship at Institute of Bioinformatics?",
+      "Expected Answer": "May 2011 to June 2011 (approximately 1 month, averaging 60 hours/week)",
+      "Actual Answer": "Dr. Khare completed his research fellowship at Institute of Bioinformatics (IOB) in 2011.",
+      "Pass": "False"
+    }
+  ],
+  "missing_facts": [
+    {
+      "ID": "33",
+      "Question": "Where did Dr. Khare work as a physician in India between 2019\u20132021?",
+      "Expected Answer": "A hospital in India (specific hospital name not stated), providing outpatient, inpatient, emergency and acute care",
+      "Actual Answer": "Dr. Khare worked as a Physician at Hospital, India between 2019\u20132021.",
+      "Pass": "False"
+    },
+    {
+      "ID": "56",
+      "Question": "Where did Dr. Khare do his first US clinical elective?",
+      "Expected Answer": "Dabadhe Pvt. Ltd, Franklin Park, Chicago, IL, under Dr. Narendra Dabhade (February\u2013March 2015)",
+      "Actual Answer": "Dr. Khare did his first US clinical elective at CCHHS under the guidance of Dr. Narendra Dabhade.",
+      "Pass": "False"
+    },
+    {
+      "ID": "104",
+      "Question": "Where is the Institute of Bioinformatics (IOB) where Dr. Khare worked located?",
+      "Expected Answer": "Bangalore, India; affiliated to Johns Hopkins Medical University, Baltimore, USA",
+      "Actual Answer": "The Institute of Bioinformatics (IOB) where Dr. Khare worked is located in Bangalore, India.",
+      "Pass": "False"
+    },
+    {
+      "ID": "135",
+      "Question": "What conference did Dr. Khare attend where he won the Champion's Trophy from a Nobel Laureate?",
+      "Expected Answer": "The Karmic Conference (2013), where he won among 600 research papers and received the award from Nobel Laureate Dr. Robin Warren",
+      "Actual Answer": "Dr. Supreet Khare attended the Karmic Conference and won the Champion's trophy from Nobel Laureate, Dr. Robin Warren.",
+      "Pass": "False"
+    },
+    {
+      "ID": "209",
+      "Question": "Dr. Khare has co-authored a paper on telemedicine. Who was the co-author and what was the journal?",
+      "Expected Answer": "Co-author: Y. Chaudhari; journal: Innov J Med Health Sci (2016); topic: Telemedicine and patient satisfaction",
+      "Actual Answer": "There is no information in the provided documents about Dr. Khare co-authoring a paper on telemedicine or the name of the journal it appeared in.",
+      "Pass": "False"
+    }
+  ],
+  "hallucinations": [
+    {
+      "ID": "11",
+      "Question": "Which university was AFMC affiliated to for Dr. Khare's degree?",
+      "Expected Answer": "Maharashtra University of Health and Sciences, Nashik, India",
+      "Actual Answer": "Armed Forces Medical College in Pune, Maharashtra, India.",
+      "Pass": "False"
+    },
+    {
+      "ID": "35",
+      "Question": "Is Dr. Khare ACLS certified?",
+      "Expected Answer": "Yes, ACLS Certified (most recently issued October 11, 2021, renewal October 2, 2023)",
+      "Actual Answer": "Yes, Dr. Supreet Khare is ACLS Certified, with certification date being April 30, 2020.",
+      "Pass": "False"
+    },
+    {
+      "ID": "36",
+      "Question": "Is Dr. Khare BLS certified?",
+      "Expected Answer": "Yes, BLS Certified (issued October 11, 2021, renewal October 2, 2023)",
+      "Actual Answer": "Yes, Dr. Khare is BLS Certified on April 30, 2020.",
+      "Pass": "False"
+    },
+    {
+      "ID": "37",
+      "Question": "In which state does Dr. Khare hold a medical license?",
+      "Expected Answer": "Arizona (Temporary or Limited, expired June 2019)",
+      "Actual Answer": "The provided documents do not specify the state in which Dr. Supreet Khare holds a medical license.",
+      "Pass": "False"
+    },
+    {
+      "ID": "39",
+      "Question": "What is the title of Dr. Khare's published novel?",
+      "Expected Answer": "\"Tales of Enkanto \u2013 A Paradoxical Beginning\"",
+      "Actual Answer": "The title of Dr. Khare's published novel is \"Tales of Enkanto\".",
+      "Pass": "False"
+    }
+  ]
+}

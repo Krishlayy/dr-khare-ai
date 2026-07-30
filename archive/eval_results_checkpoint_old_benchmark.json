@@ -1,0 +1,1655 @@
+{
+    "results": [
+        {
+            "category": "Biography",
+            "question": "Who is Dr. Supreet Khare?",
+            "latency": 39449.18619999953,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician, medical researcher, healthcare e..."
+        },
+        {
+            "category": "Biography",
+            "question": "Where is Dr. Khare originally from?",
+            "latency": 29471.639800001867,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "The retrieved documents do not provide information about Dr. Khare's original place of origin. They ..."
+        },
+        {
+            "category": "Education",
+            "question": "Where did Dr. Khare complete his residency?",
+            "latency": 27695.588800001133,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar..."
+        },
+        {
+            "category": "Education",
+            "question": "What medical school did Dr. Khare attend?",
+            "latency": 18345.452799999977,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare attended the Armed Forces Medical College (AFMC) in Pune, India for his MBBS...."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Where has Dr. Khare worked previously in India?",
+            "latency": 12096.223000000009,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.2,
+            "hallucination": 0.8,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has worked in a variety of clinical, academic, research, and leadership roles thro..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "What is his role at Health First Multi Specialty Clinic?",
+            "latency": 13702.204800000118,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.67,
+            "hallucination": 0.33,
+            "sources": [
+                "career_timeline.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is currently the Managing Director, CEO, and Internal Medicine Consultant at Healt..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "What clinical experience does he have in the USA?",
+            "latency": 16059.406399999943,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.2,
+            "hallucination": 1.0,
+            "sources": [
+                "MASTER CV.pdf",
+                "clinic_info.txt",
+                "research_publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare had his first experience practicing medicine in the United States during his clini..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "What are the timings for Health First Multi Specialty Clinic?",
+            "latency": 18842.363100000057,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "career_timeline.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "The exact clinic location and timings for Health First Multi Specialty Clinic in Dwarka, New Delhi a..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Where is Health First Multi Specialty Clinic located?",
+            "latency": 10102.873199999976,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.29,
+            "hallucination": 0.71,
+            "sources": [
+                "career_timeline.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Health First Multi Specialty Clinic is located in Dwarka, New Delhi...."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Does the clinic offer lab tests and ECG?",
+            "latency": 5611.668799999961,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "This information is not covered in the available documents. Would you like to ask about Dr. Khare's ..."
+        },
+        {
+            "category": "Research",
+            "question": "What clinical trials has Dr. Khare been involved in?",
+            "latency": 6017.564900000025,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "research_publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare was a Principal Investigator for the COPE Trial at the University of Arizona. He a..."
+        },
+        {
+            "category": "Research",
+            "question": "Did Dr. Khare do any quality improvement research?",
+            "latency": 11913.983099999996,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "research_publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare conducted quality improvement research on Diabetic Ketoacidosis in the ICU at..."
+        },
+        {
+            "category": "Publications",
+            "question": "What are some of Dr. Khare's publications?",
+            "latency": 9178.111900000204,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "research_publications.txt",
+                "awards_honors.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare's publications span international journals like Cureus, focusing on topics such as..."
+        },
+        {
+            "category": "Publications",
+            "question": "Did Dr. Khare publish anything related to COVID-19?",
+            "latency": 11623.388599999998,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Khare published research related to COVID-19 pulmonary complications. He conducted quality ..."
+        },
+        {
+            "category": "Awards",
+            "question": "What awards has Dr. Khare received?",
+            "latency": 17630.902099999956,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.7,
+            "hallucination": 0.6,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "awards_honors.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has received several awards including:  - The prestigious Indian Council of Medica..."
+        },
+        {
+            "category": "Awards",
+            "question": "Has Dr. Khare received any academic gold medals?",
+            "latency": 12738.25839999995,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "awards_honors.txt",
+                "doctor_profile.txt",
+                "MASTER CV.pdf"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare has received Gold Medals in Pathology and Microbiology during his MBBS...."
+        },
+        {
+            "category": "Memberships",
+            "question": "What professional organizations is Dr. Khare a member of?",
+            "latency": 21571.03989999996,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.4,
+            "hallucination": 0.6,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a member of the following professional organizations:  - American College of Ph..."
+        },
+        {
+            "category": "Memberships",
+            "question": "Is Dr. Khare registered with any medical councils?",
+            "latency": 9899.773100000175,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "professional_memberships.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is registered and holds active memberships with the Delhi Medical Council, the Raj..."
+        },
+        {
+            "category": "Leadership",
+            "question": "Has Dr. Khare held any leadership positions?",
+            "latency": 20810.466599999927,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare has held leadership positions in healthcare organizations in both the United ..."
+        },
+        {
+            "category": "Leadership",
+            "question": "What was his role during his residency?",
+            "latency": 22314.90839999992,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.5,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "career_timeline.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "During his residency, Dr. Supreet Khare served as Chief Resident at the South Campus of the Universi..."
+        },
+        {
+            "category": "Current Position",
+            "question": "What is Dr. Khare doing now?",
+            "latency": 36628.2305000002,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently serves as the Managing Director and Chief Executive Officer of Compendio..."
+        },
+        {
+            "category": "Current Position",
+            "question": "Where does Dr. Khare currently practice?",
+            "latency": 16416.52870000007,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.33,
+            "hallucination": 0.67,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently practices at Compendious Med Works Pvt. Ltd., located in Tucson, Arizona..."
+        },
+        {
+            "category": "Biography",
+            "question": "Tell me a summary of Dr Khare's background.",
+            "latency": 21227.74840000011,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician who has also received training in..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "How can I book an appointment?",
+            "latency": 7534.100599999874,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but booking an appointment is not covered in the available documents. Would you like to t..."
+        },
+        {
+            "category": "Publications",
+            "question": "Does he have publications in international journals?",
+            "latency": 13759.102900000016,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Khare has publications in international journals. His research on topics such as Chest Infe..."
+        },
+        {
+            "category": "Biography",
+            "question": "Can you tell me: Who is Dr. Supreet Khare?",
+            "latency": 22833.944699999847,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician who has also trained in Occupatio..."
+        },
+        {
+            "category": "Biography",
+            "question": "Can you tell me: Where is Dr. Khare originally from?",
+            "latency": 8987.157999999908,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.25,
+            "hallucination": 0.75,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "career_timeline.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is originally from India...."
+        },
+        {
+            "category": "Education",
+            "question": "Can you tell me: Where did Dr. Khare complete his residency?",
+            "latency": 11939.521700000114,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "career_timeline.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar..."
+        },
+        {
+            "category": "Education",
+            "question": "Can you tell me: What medical school did Dr. Khare attend?",
+            "latency": 10741.157600000406,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare attended the Armed Forces Medical College (AFMC) in Pune, India for his MBBS...."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Can you tell me: Where has Dr. Khare worked previously in India?",
+            "latency": 8215.504599999804,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has not provided specific information about his previous work locations in India w..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Can you tell me: What is his role at Health First Multi Specialty Clinic?",
+            "latency": 9692.634100000305,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.85,
+            "sources": [
+                "career_timeline.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is currently the Managing Director, CEO, and Internal Medicine Consultant at Healt..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Can you tell me: What clinical experience does he have in the USA?",
+            "latency": 6120.928100000128,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but there is no information about his clinical experience in the USA in the provided docu..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Can you tell me: What are the timings for Health First Multi Specialty Clinic?",
+            "latency": 6082.194000000072,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but based on the information provided, there are no details about the timings for Health ..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Can you tell me: Where is Health First Multi Specialty Clinic located?",
+            "latency": 8896.83930000001,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.25,
+            "hallucination": 0.75,
+            "sources": [
+                "career_timeline.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Health First Multi Specialty Clinic is located in Dwarka, New Delhi...."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Can you tell me: Does the clinic offer lab tests and ECG?",
+            "latency": 3933.9334999999664,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "This information is not provided in the available documents. Would you like to know something else a..."
+        },
+        {
+            "category": "Research",
+            "question": "Can you tell me: What clinical trials has Dr. Khare been involved in?",
+            "latency": 11209.45040000015,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "research_publications.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare was a Principal Investigator for the COPE Trial at the University of Arizona. He h..."
+        },
+        {
+            "category": "Research",
+            "question": "Can you tell me: Did Dr. Khare do any quality improvement research?",
+            "latency": 9041.390099999717,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare conducted quality improvement research on Diabetic Ketoacidosis in the ICU at..."
+        },
+        {
+            "category": "Publications",
+            "question": "Can you tell me: What are some of Dr. Khare's publications?",
+            "latency": 8281.480600000123,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "awards_honors.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare's publications include research on topics such as Chest Infections, COVID-19 pulmo..."
+        },
+        {
+            "category": "Publications",
+            "question": "Can you tell me: Did Dr. Khare publish anything related to COVID-19?",
+            "latency": 10975.38809999969,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Khare has published research related to COVID-19 pulmonary complications in international j..."
+        },
+        {
+            "category": "Awards",
+            "question": "Can you tell me: What awards has Dr. Khare received?",
+            "latency": 17494.154899999558,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.7,
+            "hallucination": 0.3,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "awards_honors.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has received several prestigious awards, including:  - The Indian Council of Medic..."
+        },
+        {
+            "category": "Awards",
+            "question": "Can you tell me: Has Dr. Khare received any academic gold medals?",
+            "latency": 12587.409499999922,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "awards_honors.txt",
+                "doctor_profile.txt",
+                "MASTER CV.pdf"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare has received a Gold Medal in Pathology and Microbiology during his MBBS...."
+        },
+        {
+            "category": "Memberships",
+            "question": "Can you tell me: What professional organizations is Dr. Khare a member of?",
+            "latency": 15524.15400000018,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.9,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a member of the following professional organizations:  - American College of Ph..."
+        },
+        {
+            "category": "Memberships",
+            "question": "Can you tell me: Is Dr. Khare registered with any medical councils?",
+            "latency": 11921.999099999994,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "professional_memberships.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare is registered and holds active memberships with the Delhi Medical Council, th..."
+        },
+        {
+            "category": "Leadership",
+            "question": "Can you tell me: Has Dr. Khare held any leadership positions?",
+            "latency": 14090.525399999933,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare has held leadership positions in healthcare organizations in both the United ..."
+        },
+        {
+            "category": "Leadership",
+            "question": "Can you tell me: What was his role during his residency?",
+            "latency": 5780.428500000198,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but there is no information about his role during residency in the provided documents. Le..."
+        },
+        {
+            "category": "Current Position",
+            "question": "Can you tell me: What is Dr. Khare doing now?",
+            "latency": 12039.13700000021,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently serves as the Managing Director and Chief Executive Officer of Compendio..."
+        },
+        {
+            "category": "Current Position",
+            "question": "Can you tell me: Where does Dr. Khare currently practice?",
+            "latency": 9550.919599999816,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently practices at Compendious Med Works Pvt. Ltd., located in Tucson, Arizona..."
+        },
+        {
+            "category": "Biography",
+            "question": "Can you tell me: Tell me a summary of Dr Khare's background.",
+            "latency": 17526.30289999979,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.85,
+            "hallucination": 0.15,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "research_publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a physician, researcher, entrepreneur, and healthcare executive with training i..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Can you tell me: How can I book an appointment?",
+            "latency": 5381.637999999839,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but booking an appointment is not covered in the information provided. Would you like to ..."
+        },
+        {
+            "category": "Publications",
+            "question": "Can you tell me: Does he have publications in international journals?",
+            "latency": 4752.710799999932,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but there are no publications in international journals mentioned in the provided documen..."
+        },
+        {
+            "category": "Biography",
+            "question": "I want to know who is dr. supreet khare?",
+            "latency": 19804.507400000148,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician, medical researcher, healthcare e..."
+        },
+        {
+            "category": "Biography",
+            "question": "I want to know where is dr. khare originally from?",
+            "latency": 13667.288399999961,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.25,
+            "hallucination": 0.75,
+            "sources": [
+                "doctor_profile.txt",
+                "career_timeline.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has training in Internal Medicine and Occupational Medicine and his career spans a..."
+        },
+        {
+            "category": "Education",
+            "question": "I want to know where did dr. khare complete his residency?",
+            "latency": 11575.234200000068,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "career_timeline.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar..."
+        },
+        {
+            "category": "Education",
+            "question": "I want to know what medical school did dr. khare attend?",
+            "latency": 8627.835300000243,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.25,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Khare attended the MBBS at the Armed Forces Medical College (AFMC), Pune, India...."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "I want to know where has dr. khare worked previously in india?",
+            "latency": 10844.009200000073,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.25,
+            "hallucination": 0.75,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has worked previously in India at healthcare organizations, holding leadership rol..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "I want to know what is his role at health first multi specialty clinic?",
+            "latency": 10339.8916000001,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.71,
+            "hallucination": 0.29,
+            "sources": [
+                "career_timeline.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently serves as the Managing Director, CEO, and Internal Medicine Consultant a..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "I want to know what clinical experience does he have in the usa?",
+            "latency": 13094.031900000118,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.4,
+            "hallucination": 0.6,
+            "sources": [
+                "MASTER CV.pdf",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare had his first experience practicing medicine in the USA during his clinical electi..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "I want to know what are the timings for health first multi specialty clinic?",
+            "latency": 6607.096299999739,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but there is no information about the timings for health first multi specialty clinic in ..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "I want to know where is health first multi specialty clinic located?",
+            "latency": 7487.828999999692,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "career_timeline.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Health First Multi Specialty Clinic is located in Dwarka, New Delhi...."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "I want to know does the clinic offer lab tests and ecg?",
+            "latency": 5448.742000000038,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "This information is not available in the provided documents. You might want to ask about Dr. Khare's..."
+        },
+        {
+            "category": "Research",
+            "question": "I want to know what clinical trials has dr. khare been involved in?",
+            "latency": 12455.20899999974,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "research_publications.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has been involved in the COPE Trial as a Principal Investigator at the University ..."
+        },
+        {
+            "category": "Research",
+            "question": "I want to know did dr. khare do any quality improvement research?",
+            "latency": 9776.808200000232,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare conducted quality improvement research on Diabetic Ketoacidosis in the ICU at..."
+        },
+        {
+            "category": "Publications",
+            "question": "I want to know what are some of dr. khare's publications?",
+            "latency": 10314.900100000159,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.71,
+            "hallucination": 0.29,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Selected Publications Include: - Khare S, Khare S, Seth D. \"Pseudodementia\" Published in a peer-revi..."
+        },
+        {
+            "category": "Publications",
+            "question": "I want to know did dr. khare publish anything related to covid-19?",
+            "latency": 11666.264200000114,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Khare has conducted research on COVID-19 pulmonary complications, as indicated in his publicatio..."
+        },
+        {
+            "category": "Awards",
+            "question": "I want to know what awards has dr. khare received?",
+            "latency": 19457.256300000154,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.7,
+            "hallucination": 0.8,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "awards_honors.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has received numerous awards including the prestigious Indian Council of Medical R..."
+        },
+        {
+            "category": "Awards",
+            "question": "I want to know has dr. khare received any academic gold medals?",
+            "latency": 11682.584199999837,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "awards_honors.txt",
+                "doctor_profile.txt",
+                "MASTER CV.pdf"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare has received Gold Medals in Pathology and Microbiology during his MBBS...."
+        },
+        {
+            "category": "Memberships",
+            "question": "I want to know what professional organizations is dr. khare a member of?",
+            "latency": 15300.345899999684,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a member of the following professional organizations:  - American College of Ph..."
+        },
+        {
+            "category": "Memberships",
+            "question": "I want to know is dr. khare registered with any medical councils?",
+            "latency": 13322.28350000014,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "professional_memberships.txt",
+                "doctor_profile.txt",
+                "MASTER CV.pdf"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare holds active memberships with the Delhi Medical Council, the Rajasthan Medical Cou..."
+        },
+        {
+            "category": "Leadership",
+            "question": "I want to know has dr. khare held any leadership positions?",
+            "latency": 12945.113299999775,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has held leadership roles in healthcare organizations in both the United States an..."
+        },
+        {
+            "category": "Leadership",
+            "question": "I want to know what was his role during his residency?",
+            "latency": 5198.083700000097,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "This information is not available in the provided documents. Would you like to ask about another asp..."
+        },
+        {
+            "category": "Current Position",
+            "question": "I want to know what is dr. khare doing now?",
+            "latency": 13647.144699999899,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently serves as the Managing Director and Chief Executive Officer of Compendio..."
+        },
+        {
+            "category": "Current Position",
+            "question": "I want to know where does dr. khare currently practice?",
+            "latency": 15564.08620000002,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.7,
+            "hallucination": 0.3,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently practices at Compendious Med Works Pvt. Ltd., located in Tucson, Arizona..."
+        },
+        {
+            "category": "Biography",
+            "question": "I want to know tell me a summary of dr khare's background.",
+            "latency": 21382.908300000054,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician, medical researcher, healthcare e..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "I want to know how can i book an appointment?",
+            "latency": 6613.761800000248,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but booking an appointment is not covered in the information provided here. Would you lik..."
+        },
+        {
+            "category": "Publications",
+            "question": "I want to know does he have publications in international journals?",
+            "latency": 5334.800799999812,
+            "recall": 1.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I'm sorry, but there are no publications in international journals mentioned in the provided documen..."
+        },
+        {
+            "category": "Biography",
+            "question": "Regarding Dr. Khare, who is dr. supreet khare?",
+            "latency": 19165.53219999969,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician, medical researcher, healthcare e..."
+        },
+        {
+            "category": "Biography",
+            "question": "Regarding Dr. Khare, where is dr. khare originally from?",
+            "latency": 12730.473500000244,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently serves as the Managing Director and Chief Executive Officer of Compendio..."
+        },
+        {
+            "category": "Education",
+            "question": "Regarding Dr. Khare, where did dr. khare complete his residency?",
+            "latency": 12964.90760000006,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar..."
+        },
+        {
+            "category": "Education",
+            "question": "Regarding Dr. Khare, what medical school did dr. khare attend?",
+            "latency": 13535.412499999893,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Regarding Dr. Khare, where has dr. khare worked previously in india?",
+            "latency": 11849.351899999874,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.25,
+            "hallucination": 0.75,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has worked in a variety of clinical, academic, research, and leadership roles thro..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Regarding Dr. Khare, what is his role at health first multi specialty clinic?",
+            "latency": 16533.36739999986,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare does not have a current role at Health First Multi-Specialty Clinic based on the i..."
+        },
+        {
+            "category": "Clinical Experience",
+            "question": "Regarding Dr. Khare, what clinical experience does he have in the usa?",
+            "latency": 15906.338599999799,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.25,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has extensive clinical experience in the USA, serving as a board-certified Interna..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Regarding Dr. Khare, what are the timings for health first multi specialty clinic?",
+            "latency": 11088.800900000024,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.66,
+            "hallucination": 0.34,
+            "sources": [
+                "career_timeline.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Health First Multi Specialty Clinic is closed on Sunday. The clinic operates from Monday through Fri..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Regarding Dr. Khare, where is health first multi specialty clinic located?",
+            "latency": 9897.963599999912,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "career_timeline.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Health First Multi Specialty Clinic is located in Dwarka, New Delhi...."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Regarding Dr. Khare, does the clinic offer lab tests and ecg?",
+            "latency": 15045.822300000054,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.25,
+            "hallucination": 0.75,
+            "sources": [
+                "clinic_info.txt",
+                "research_publications.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Based on the information provided in the retrieved documents, Compendious Med Works Pvt. Ltd., where..."
+        },
+        {
+            "category": "Research",
+            "question": "Regarding Dr. Khare, what clinical trials has dr. khare been involved in?",
+            "latency": 9700.667300000077,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has not been explicitly mentioned as being involved in any specific clinical trial..."
+        },
+        {
+            "category": "Research",
+            "question": "Regarding Dr. Khare, did dr. khare do any quality improvement research?",
+            "latency": 14992.291000000023,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.4,
+            "hallucination": 0.6,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Based on the provided documents, there is no specific mention of Dr. Supreet Khare conducting qualit..."
+        },
+        {
+            "category": "Publications",
+            "question": "Regarding Dr. Khare, what are some of dr. khare's publications?",
+            "latency": 8271.12410000018,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "The documents do not provide information about Dr. Supreet Khare's publications...."
+        },
+        {
+            "category": "Publications",
+            "question": "Regarding Dr. Khare, did dr. khare publish anything related to covid-19?",
+            "latency": 15852.160899999944,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "research_publications.txt",
+                "doctor_profile.txt",
+                "publications.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare published work related to COVID-19 pulmonary complications. His research in t..."
+        },
+        {
+            "category": "Awards",
+            "question": "Regarding Dr. Khare, what awards has dr. khare received?",
+            "latency": 13980.97830000006,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.75,
+            "hallucination": 0.625,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has received several awards including:  - First and only undergraduate medical stu..."
+        },
+        {
+            "category": "Awards",
+            "question": "Regarding Dr. Khare, has dr. khare received any academic gold medals?",
+            "latency": 9875.786500000231,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 1.0,
+            "sources": [
+                "awards_honors.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare won a Gold Medal in Pathology and Microbiology during his MBBS...."
+        },
+        {
+            "category": "Memberships",
+            "question": "Regarding Dr. Khare, what professional organizations is dr. khare a member of?",
+            "latency": 9016.40980000002,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is not mentioned as a member of any specific professional organizations in the pro..."
+        },
+        {
+            "category": "Memberships",
+            "question": "Regarding Dr. Khare, is dr. khare registered with any medical councils?",
+            "latency": 9275.798699999996,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 0.0,
+            "hallucination": 1.0,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "I do not have information about whether Dr. Supreet Khare is registered with any medical councils. T..."
+        },
+        {
+            "category": "Leadership",
+            "question": "Regarding Dr. Khare, has dr. khare held any leadership positions?",
+            "latency": 14865.820200000144,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "doctor_profile.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare has held leadership positions in healthcare organizations in both the United State..."
+        },
+        {
+            "category": "Leadership",
+            "question": "Regarding Dr. Khare, what was his role during his residency?",
+            "latency": 11683.850299999904,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.0,
+            "sources": [
+                "clinic_info.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar..."
+        },
+        {
+            "category": "Current Position",
+            "question": "Regarding Dr. Khare, what is dr. khare doing now?",
+            "latency": 12278.038200000083,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently serves as the Managing Director and Chief Executive Officer of Compendio..."
+        },
+        {
+            "category": "Current Position",
+            "question": "Regarding Dr. Khare, where does dr. khare currently practice?",
+            "latency": 17021.551199999976,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "clinic_info.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare currently practices at Compendious Med Works Pvt. Ltd., which is located in Tucson..."
+        },
+        {
+            "category": "Biography",
+            "question": "Regarding Dr. Khare, tell me a summary of dr khare's background.",
+            "latency": 18406.74720000061,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 0.8,
+            "hallucination": 0.2,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Dr. Supreet Khare is a board-certified Internal Medicine physician who has also received training in..."
+        },
+        {
+            "category": "Clinic Information",
+            "question": "Regarding Dr. Khare, how can i book an appointment?",
+            "latency": 14658.597700000428,
+            "recall": 1.0,
+            "precision": 1.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "clinic_info.txt",
+                "doctor_profile.txt",
+                "professional_memberships.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "To book an appointment with Dr. Supreet Khare at Compendious Med Works Pvt. Ltd., you can call their..."
+        },
+        {
+            "category": "Publications",
+            "question": "Regarding Dr. Khare, does he have publications in international journals?",
+            "latency": 11341.236700000081,
+            "recall": 0.0,
+            "precision": 0.0,
+            "factual_coverage": 1.0,
+            "hallucination": 0.8,
+            "sources": [
+                "doctor_profile.txt",
+                "clinic_info.txt",
+                "doctor_profile.txt"
+            ],
+            "bypassed": false,
+            "model": "qwen2.5:3b",
+            "answer": "Yes, Dr. Supreet Khare has published research in multiple medical specialties including Internal Med..."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+# Environments
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Database / Data
+app.db
+chroma_db/
+storage/
+uploads/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
