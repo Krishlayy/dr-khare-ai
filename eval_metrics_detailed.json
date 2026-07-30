@@ -1,0 +1,376 @@
+{
+  "Recall@1": 0.49,
+  "Recall@3": 0.67,
+  "Recall@5": 0.67,
+  "MRR": 0.5666666666666668,
+  "nDCG": 0.5930929753571458,
+  "failures": [
+    {
+      "question": "Where did Dr. Khare work before moving to the USA?",
+      "expected_document": "career_timeline.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "I'm unable to provide information about Dr. Supreet Khare's previous employment location outside of ...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Where did he work as an Occupational Medicine Resident?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "MASTER CV.pdf",
+        "career_timeline.txt"
+      ],
+      "answer": "Dr. Supreet Khare worked as an Occupational Medicine Resident Supervisor at the University of Cincin...",
+      "factual": 0.25,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Where was he a Research Fellow?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but based on the information provided, I couldn't find details about where Dr. Supreet Kh...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "What professional organizations is Dr. Khare a member of in the US?",
+      "expected_document": "professional_memberships.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "Dr. Supreet Khare is not mentioned as a member of any specific professional organizations in the pro...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Is Dr. Khare registered with any medical councils in India?",
+      "expected_document": "professional_memberships.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "Dr. Supreet Khare is a member of the following medical organizations in India: - Medical Students As...",
+      "factual": 0.2,
+      "hallucination": 0.8,
+      "recall_rank": -1
+    },
+    {
+      "question": "Can you tell me: Did he have a role at Lompoc Valley Medical Center?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but based on the information provided, there is no detail about Dr. Supreet Khare having ...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Can you tell me: Where did he work as an Occupational Medicine Resident?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but based on the information provided, I couldn't find details about where he worked as a...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Can you tell me: Where was he a Research Fellow?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but based on the information provided, I couldn't find where he was a Research Fellow. Pe...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Can you tell me: What journal did he publish in regarding COVID-19?",
+      "expected_document": "research_publications.txt",
+      "retrieved_documents": [
+        "research_publications.txt",
+        "MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "answer": "Dr. Khare published a work related to COVID-19 in international journals, focusing on topics such as...",
+      "factual": 0.3,
+      "hallucination": 0.0,
+      "recall_rank": 1
+    },
+    {
+      "question": "Can you tell me: What was the topic of his paper 'Pseudodementia'?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but there is no information about the paper 'Pseudodementia' in the available documents. ...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Can you tell me: Who awarded him the Champion's Trophy?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [
+        "awards_honors.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Nobel Laureate Dr. Robin Warren awarded him the Champion's Trophy....",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Can you tell me: What professional organizations is Dr. Khare a member of in the US?",
+      "expected_document": "professional_memberships.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "I am unable to provide information on the specific professional organizations Dr. Supreet Khare is a...",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "I want to know where did dr. khare work before moving to the usa?",
+      "expected_document": "career_timeline.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "career_timeline.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Dr. Supreet Khare worked at Fortis Memorial Research Institute, Medanta - The Medicity, and Paras Ho...",
+      "factual": 0.71,
+      "hallucination": 0.29,
+      "recall_rank": 2
+    },
+    {
+      "question": "I want to know did he have a role at lompoc valley medical center?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but there's no information about Dr. Supreet Khare having a role at Lompoc Valley Medical...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "I want to know where did he work as an occupational medicine resident?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [],
+      "answer": "I'm sorry, but based on the information provided, I couldn't find details about where he worked as a...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "I want to know where is health first multi specialty clinic located?",
+      "expected_document": "career_timeline.txt",
+      "retrieved_documents": [
+        "career_timeline.txt",
+        "clinic_info.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Health First Multi Specialty Clinic is located in Dwarka, New Delhi....",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": 1
+    },
+    {
+      "question": "I want to know where was he a research fellow?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [],
+      "answer": "This information is not available in the provided documents. Would you like to ask about another asp...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "I want to know what was the topic of his paper 'pseudodementia'?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [],
+      "answer": "The document does not contain information about the paper titled 'pseudodementia'. Would you like to...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "I want to know what professional organizations is dr. khare a member of in the us?",
+      "expected_document": "professional_memberships.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Dr. Supreet Khare is not mentioned as a member of any specific professional organizations in the Uni...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, has dr. khare published any fiction novels?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "research_publications.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "Dr. Supreet Khare has not published any fiction novels according to the provided information....",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": 1
+    },
+    {
+      "question": "Regarding Dr. Khare, what languages does dr. khare speak?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "The provided documents do not contain information about the languages Dr. Supreet Khare speaks....",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": 1
+    },
+    {
+      "question": "Regarding Dr. Khare, where did dr. khare work before moving to the usa?",
+      "expected_document": "career_timeline.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "clinic_info.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Dr. Supreet Khare worked in a variety of clinical, academic, research, and leadership roles througho...",
+      "factual": 0.2,
+      "hallucination": 0.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, did he have a role at lompoc valley medical center?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "research_publications.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Based on the information provided in the retrieved documents, Dr. Supreet Khare does not have any ex...",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, where did he work as an occupational medicine resident?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "Dr. Supreet Khare worked in a variety of clinical, academic, research, and leadership roles througho...",
+      "factual": 0.2,
+      "hallucination": 0.0,
+      "recall_rank": 2
+    },
+    {
+      "question": "Regarding Dr. Khare, where is health first multi specialty clinic located?",
+      "expected_document": "career_timeline.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "clinic_info.txt",
+        "career_timeline.txt"
+      ],
+      "answer": "Health First Multi Specialty Clinic is located in Dwarka, New Delhi....",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": 3
+    },
+    {
+      "question": "Regarding Dr. Khare, what clinical trials has dr. khare been involved in?",
+      "expected_document": "research_publications.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "answer": "Dr. Supreet Khare has not been explicitly mentioned as being involved in any specific clinical trial...",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, where was he a research fellow?",
+      "expected_document": "publications.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "There is no information about Dr. Supreet Khare being a research fellow in any of the provided docum...",
+      "factual": 0.0,
+      "hallucination": 1.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, what professional organizations is dr. khare a member of in the us?",
+      "expected_document": "professional_memberships.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "I do not have information about any specific professional organizations that Dr. Supreet Khare is a ...",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, is dr. khare registered with any medical councils in india?",
+      "expected_document": "professional_memberships.txt",
+      "retrieved_documents": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "I could not find information regarding whether Dr. Supreet Khare is registered with any medical coun...",
+      "factual": 0.0,
+      "hallucination": 0.0,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, what was his role during his residency at south campus?",
+      "expected_document": "career_timeline.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "Dr. Supreet Khare completed his ACGME-accredited Internal Medicine Residency at the University of Ar...",
+      "factual": 0.7,
+      "hallucination": 0.3,
+      "recall_rank": -1
+    },
+    {
+      "question": "Regarding Dr. Khare, did he have a leadership role at california medical behavioral health?",
+      "expected_document": "doctor_profile.txt",
+      "retrieved_documents": [
+        "clinic_info.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "answer": "Dr. Supreet Khare has current roles including Managing Director & CEO \u2014 Compendious Med Works Pvt. L...",
+      "factual": 0.2,
+      "hallucination": 0.0,
+      "recall_rank": 3
+    }
+  ]
+}

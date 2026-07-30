@@ -1,0 +1,59 @@
+=== QUERY: Who is Dr. Khare? ===
+--- BEFORE RERANKING (Top 3 RRF) ---
+[1] ID: 6 | Score: 0.0882 | Preview: CV    presented several cases and attended seminars. I made friends for lifetime at CCHHS and if  gi...
+[2] ID: 1 | Score: 0.0864 | Preview: CV      03/2014 - 03/2015  Elsevier, New Delhi, India  Elsevier Student Ambassador (ESA) 2014,    El...
+[3] ID: 0 | Score: 0.0802 | Preview: # BIOGRAPHY  PERSONAL DETAILS:  ● SUPREET, KHARE  AAMC ID: 14088248    CONTACT DETAILS:  ● Present M...
+
+--- AFTER RERANKING (Top 3 CrossEncoder) ---
+[1] ID: 8 | Score: 2.5246 | Preview: Khare, Supreet; Al-Khashman, Ahmad. (November, 2017). MoyaMoya Syndrome - A Grave  Consequence Oral ...
+[2] ID: 9 | Score: 1.8148 | Preview: Published. Non Peer Reviewed Online Publication    Khare S. (2015, February 09). Humility in Science...
+[3] ID: 1 | Score: 1.3589 | Preview: # PUBLICATIONS  Publications    Peer Reviewed Journal Articles/Abstracts    Khare S, Khare S, Seth D...
+
+--- FINAL ANSWER ---
+Dr. Supreet Khare is an accomplished medical professional with extensive experience in various fields of healthcare. He holds an AAMC ID of 14088248 and has been recognized for his academic achievements and contributions to research.
+
+In terms of education, he graduated from the Armed Forces Medical College (AFMC) in Pune, India, which is located in Maharashtra. This institution is known for its rigorous training programs that prepare students for careers in medicine.
+
+Dr. Khare's credentials are impressive, including being the first undergraduate student in India to be awarded the Indian Council of Medical Research (ICMR) research scholarship consecutively for five years from 2010-2014. He was also the youngest person to receive the Brig. SK Mazumdar Memorial Trust award for Young Scientist in 2013.
+
+He has received several accolades, such as being the youngest AFMC cadet and only Indian student sent abroad on a full scholarship to present his research at the 3rd International Medical Summer School Conference in Manchester, UK (2013). Additionally, he was the first AFMC cadet to win the Champion's trophy by Nobel Laureate Dr. Robin Warren after winning among 600 research papers presented in the Karmic Conference.
+
+Dr. Khare has authored a fiction novel titled "Tales of Enkanto - A Paradoxical Beginning" and is the youngest student to be awarded a one-month research fellowship at the Institute of Bioinformatics (JOB), affiliated with Johns Hopkins University, Bangalore.
+
+In his professional career, he currently serves as the Managing Director/CEO at Compendious Med Works Pvt. Ltd., where he leads global health content, digital strategy, and healthcare consulting initiatives. He has also held significant roles in various institutions such as California Medical Behavioral Health (CMBH), Lompoc Valley Medical Center, and Signify Health Texas.
+
+Dr. Khare's expertise extends to occupational medicine, which he practiced at the Hospital, India from 2019 to 2021. He has also served as a Physician in various capacities including providing outpatient and inpatient care, emergency management, and fitness-for-duty evaluations. His experience includes supervising an Occupational Medicine Resident at the University of Cincinnati.
+
+In summary, Dr. Supreet Khare is a distinguished medical professional with notable achievements in research, academia, and leadership roles across multiple healthcare settings.
+Sources Used: ['biography.txt', 'biography.txt', 'biography.txt', 'employment.txt', 'employment.txt', 'employment.txt']
+
+=== QUERY: How are you? ===
+--- BEFORE RERANKING (Top 3 RRF) ---
+[1] ID: 115 | Score: 0.0856 | Preview: CV    Appendix 458  HealioCME-Ace-the-Case-A-27YearOld  Completed: 07-16-22    Appendix 459  HealioC...
+[2] ID: 1 | Score: 0.0844 | Preview: If you are asked about any of the following, you must answer: "Not stated in the verified source doc...
+[3] ID: 0 | Score: 0.0815 | Preview: # BIOGRAPHY  PERSONAL DETAILS:  ● SUPREET, KHARE  AAMC ID: 14088248    CONTACT DETAILS:  ● Present M...
+
+--- AFTER RERANKING (Top 3 CrossEncoder) ---
+[1] ID: 0 | Score: -7.5849 | Preview: # Explicit Knowledge Boundaries  The following information is NOT present in the verified source doc...
+[2] ID: 7 | Score: -7.8100 | Preview: Urdu  Advanced  I speak very accurately, and I understand other  speakers very accurately. Native sp...
+[3] ID: 5 | Score: -7.8397 | Preview: English  Advanced  I speak very accurately, and I understand other  speakers very accurately. Native...
+
+--- FINAL ANSWER ---
+I'm doing well, thanks! How can I help you?
+Sources Used: []
+
+=== QUERY: What is Dr. Khare's phone number and mailing address? ===
+--- BEFORE RERANKING (Top 3 RRF) ---
+[1] ID: 0 | Score: 0.0984 | Preview: # BIOGRAPHY  PERSONAL DETAILS:  ● SUPREET, KHARE  AAMC ID: 14088248    CONTACT DETAILS:  ● Present M...
+[2] ID: 6 | Score: 0.0934 | Preview: CV    presented several cases and attended seminars. I made friends for lifetime at CCHHS and if  gi...
+[3] ID: 1 | Score: 0.0869 | Preview: If you are asked about any of the following, you must answer: "Not stated in the verified source doc...
+
+--- AFTER RERANKING (Top 3 CrossEncoder) ---
+[1] ID: 0 | Score: 5.9547 | Preview: # BIOGRAPHY  PERSONAL DETAILS:  ● SUPREET, KHARE  AAMC ID: 14088248    CONTACT DETAILS:  ● Present M...
+[2] ID: 1 | Score: -3.7354 | Preview: # PUBLICATIONS  Publications    Peer Reviewed Journal Articles/Abstracts    Khare S, Khare S, Seth D...
+[3] ID: 130 | Score: -10.7847 | Preview: ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– ––––––––––––––      INDI...
+
+--- FINAL ANSWER ---
+Dr. Supreet Khare's preferred phone number is +1 6462034417 and his present mailing address is 2000 E Roger Road, Apt C21, Tucson, AZ 85719.
+Sources Used: ['biography.txt', 'employment.txt', 'knowledge_boundaries.txt']
+

@@ -1,0 +1,1002 @@
+[
+  {
+    "category": "Biography",
+    "question": "Who is Dr. Supreet Khare?",
+    "expected_facts": [
+      "Board-certified Internal Medicine physician",
+      "Managing Director and CEO",
+      "University of Arizona residency"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Where is Dr. Khare originally from?",
+    "expected_facts": [
+      "Born and raised in Ajmer, Rajasthan",
+      "St. Anselm's School"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "Where did Dr. Khare complete his residency?",
+    "expected_facts": [
+      "University of Arizona",
+      "Tucson",
+      "Internal Medicine"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "What medical school did Dr. Khare attend?",
+    "expected_facts": [
+      "R.N.T Medical College",
+      "Udaipur",
+      "MBBS"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Where has Dr. Khare worked previously in India?",
+    "expected_facts": [
+      "Fortis Memorial Research Institute",
+      "Medanta - The Medicity",
+      "Paras Hospital"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "What is his role at Health First Multi Specialty Clinic?",
+    "expected_facts": [
+      "Managing Director",
+      "CEO",
+      "Internal Medicine Consultant"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "What clinical experience does he have in the USA?",
+    "expected_facts": [
+      "University of Arizona",
+      "Banner University Medical Center"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "What are the timings for Health First Multi Specialty Clinic?",
+    "expected_facts": [
+      "Monday to Saturday",
+      "Morning 9 AM - 1 PM",
+      "Evening 5 PM - 8 PM",
+      "Sunday Closed"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Where is Health First Multi Specialty Clinic located?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Sector 11",
+      "Pocket 4"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Does the clinic offer lab tests and ECG?",
+    "expected_facts": [
+      "Lab tests",
+      "ECG",
+      "Pharmacy"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Research",
+    "question": "What clinical trials has Dr. Khare been involved in?",
+    "expected_facts": [
+      "Principal Investigator",
+      "COPE Trial",
+      "University of Arizona"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Research",
+    "question": "Did Dr. Khare do any quality improvement research?",
+    "expected_facts": [
+      "Diabetic Ketoacidosis",
+      "Banner University Medical Center",
+      "ICU"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "What are some of Dr. Khare's publications?",
+    "expected_facts": [
+      "Cureus",
+      "Chest Infections",
+      "Abstracts"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Did Dr. Khare publish anything related to COVID-19?",
+    "expected_facts": [
+      "COVID-19",
+      "pulmonary complications",
+      "steroids"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "What awards has Dr. Khare received?",
+    "expected_facts": [
+      "ICMR Scholarship",
+      "Champion's Trophy",
+      "Best Paper Awards"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "Has Dr. Khare received any academic gold medals?",
+    "expected_facts": [
+      "Gold Medals",
+      "Pathology",
+      "MBBS",
+      "Microbiology"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "What professional organizations is Dr. Khare a member of?",
+    "expected_facts": [
+      "American College of Physicians",
+      "Delhi Medical Council",
+      "Indian Medical Association"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "Is Dr. Khare registered with any medical councils?",
+    "expected_facts": [
+      "Delhi Medical Council",
+      "Rajasthan Medical Council"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "Has Dr. Khare held any leadership positions?",
+    "expected_facts": [
+      "Chief Resident",
+      "University of Arizona",
+      "Managing Director",
+      "CEO"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "What was his role during his residency?",
+    "expected_facts": [
+      "Chief Resident",
+      "South Campus"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "What is Dr. Khare doing now?",
+    "expected_facts": [
+      "Health First Multi Specialty Clinic",
+      "Managing Director",
+      "Consultant"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "Where does Dr. Khare currently practice?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Health First"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Tell me a summary of Dr Khare's background.",
+    "expected_facts": [
+      "Internal Medicine",
+      "University of Arizona",
+      "Dwarka"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "How can I book an appointment?",
+    "expected_facts": [
+      "Walk-in",
+      "Phone",
+      "Practo"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Does he have publications in international journals?",
+    "expected_facts": [
+      "Cureus",
+      "International",
+      "Journal"
+    ],
+    "expected_document": "research_publications.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Can you tell me: Who is Dr. Supreet Khare?",
+    "expected_facts": [
+      "Board-certified Internal Medicine physician",
+      "Managing Director and CEO",
+      "University of Arizona residency"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Can you tell me: Where is Dr. Khare originally from?",
+    "expected_facts": [
+      "Born and raised in Ajmer, Rajasthan",
+      "St. Anselm's School"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "Can you tell me: Where did Dr. Khare complete his residency?",
+    "expected_facts": [
+      "University of Arizona",
+      "Tucson",
+      "Internal Medicine"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "Can you tell me: What medical school did Dr. Khare attend?",
+    "expected_facts": [
+      "R.N.T Medical College",
+      "Udaipur",
+      "MBBS"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Can you tell me: Where has Dr. Khare worked previously in India?",
+    "expected_facts": [
+      "Fortis Memorial Research Institute",
+      "Medanta - The Medicity",
+      "Paras Hospital"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Can you tell me: What is his role at Health First Multi Specialty Clinic?",
+    "expected_facts": [
+      "Managing Director",
+      "CEO",
+      "Internal Medicine Consultant"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Can you tell me: What clinical experience does he have in the USA?",
+    "expected_facts": [
+      "University of Arizona",
+      "Banner University Medical Center"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Can you tell me: What are the timings for Health First Multi Specialty Clinic?",
+    "expected_facts": [
+      "Monday to Saturday",
+      "Morning 9 AM - 1 PM",
+      "Evening 5 PM - 8 PM",
+      "Sunday Closed"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Can you tell me: Where is Health First Multi Specialty Clinic located?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Sector 11",
+      "Pocket 4"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Can you tell me: Does the clinic offer lab tests and ECG?",
+    "expected_facts": [
+      "Lab tests",
+      "ECG",
+      "Pharmacy"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Research",
+    "question": "Can you tell me: What clinical trials has Dr. Khare been involved in?",
+    "expected_facts": [
+      "Principal Investigator",
+      "COPE Trial",
+      "University of Arizona"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Research",
+    "question": "Can you tell me: Did Dr. Khare do any quality improvement research?",
+    "expected_facts": [
+      "Diabetic Ketoacidosis",
+      "Banner University Medical Center",
+      "ICU"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Can you tell me: What are some of Dr. Khare's publications?",
+    "expected_facts": [
+      "Cureus",
+      "Chest Infections",
+      "Abstracts"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Can you tell me: Did Dr. Khare publish anything related to COVID-19?",
+    "expected_facts": [
+      "COVID-19",
+      "pulmonary complications",
+      "steroids"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "Can you tell me: What awards has Dr. Khare received?",
+    "expected_facts": [
+      "ICMR Scholarship",
+      "Champion's Trophy",
+      "Best Paper Awards"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "Can you tell me: Has Dr. Khare received any academic gold medals?",
+    "expected_facts": [
+      "Gold Medals",
+      "Pathology",
+      "MBBS",
+      "Microbiology"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "Can you tell me: What professional organizations is Dr. Khare a member of?",
+    "expected_facts": [
+      "American College of Physicians",
+      "Delhi Medical Council",
+      "Indian Medical Association"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "Can you tell me: Is Dr. Khare registered with any medical councils?",
+    "expected_facts": [
+      "Delhi Medical Council",
+      "Rajasthan Medical Council"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "Can you tell me: Has Dr. Khare held any leadership positions?",
+    "expected_facts": [
+      "Chief Resident",
+      "University of Arizona",
+      "Managing Director",
+      "CEO"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "Can you tell me: What was his role during his residency?",
+    "expected_facts": [
+      "Chief Resident",
+      "South Campus"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "Can you tell me: What is Dr. Khare doing now?",
+    "expected_facts": [
+      "Health First Multi Specialty Clinic",
+      "Managing Director",
+      "Consultant"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "Can you tell me: Where does Dr. Khare currently practice?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Health First"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Can you tell me: Tell me a summary of Dr Khare's background.",
+    "expected_facts": [
+      "Internal Medicine",
+      "University of Arizona",
+      "Dwarka"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Can you tell me: How can I book an appointment?",
+    "expected_facts": [
+      "Walk-in",
+      "Phone",
+      "Practo"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Can you tell me: Does he have publications in international journals?",
+    "expected_facts": [
+      "Cureus",
+      "International",
+      "Journal"
+    ],
+    "expected_document": "research_publications.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "I want to know who is dr. supreet khare?",
+    "expected_facts": [
+      "Board-certified Internal Medicine physician",
+      "Managing Director and CEO",
+      "University of Arizona residency"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "I want to know where is dr. khare originally from?",
+    "expected_facts": [
+      "Born and raised in Ajmer, Rajasthan",
+      "St. Anselm's School"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "I want to know where did dr. khare complete his residency?",
+    "expected_facts": [
+      "University of Arizona",
+      "Tucson",
+      "Internal Medicine"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "I want to know what medical school did dr. khare attend?",
+    "expected_facts": [
+      "R.N.T Medical College",
+      "Udaipur",
+      "MBBS"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "I want to know where has dr. khare worked previously in india?",
+    "expected_facts": [
+      "Fortis Memorial Research Institute",
+      "Medanta - The Medicity",
+      "Paras Hospital"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "I want to know what is his role at health first multi specialty clinic?",
+    "expected_facts": [
+      "Managing Director",
+      "CEO",
+      "Internal Medicine Consultant"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "I want to know what clinical experience does he have in the usa?",
+    "expected_facts": [
+      "University of Arizona",
+      "Banner University Medical Center"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "I want to know what are the timings for health first multi specialty clinic?",
+    "expected_facts": [
+      "Monday to Saturday",
+      "Morning 9 AM - 1 PM",
+      "Evening 5 PM - 8 PM",
+      "Sunday Closed"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "I want to know where is health first multi specialty clinic located?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Sector 11",
+      "Pocket 4"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "I want to know does the clinic offer lab tests and ecg?",
+    "expected_facts": [
+      "Lab tests",
+      "ECG",
+      "Pharmacy"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Research",
+    "question": "I want to know what clinical trials has dr. khare been involved in?",
+    "expected_facts": [
+      "Principal Investigator",
+      "COPE Trial",
+      "University of Arizona"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Research",
+    "question": "I want to know did dr. khare do any quality improvement research?",
+    "expected_facts": [
+      "Diabetic Ketoacidosis",
+      "Banner University Medical Center",
+      "ICU"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "I want to know what are some of dr. khare's publications?",
+    "expected_facts": [
+      "Cureus",
+      "Chest Infections",
+      "Abstracts"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "I want to know did dr. khare publish anything related to covid-19?",
+    "expected_facts": [
+      "COVID-19",
+      "pulmonary complications",
+      "steroids"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "I want to know what awards has dr. khare received?",
+    "expected_facts": [
+      "ICMR Scholarship",
+      "Champion's Trophy",
+      "Best Paper Awards"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "I want to know has dr. khare received any academic gold medals?",
+    "expected_facts": [
+      "Gold Medals",
+      "Pathology",
+      "MBBS",
+      "Microbiology"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "I want to know what professional organizations is dr. khare a member of?",
+    "expected_facts": [
+      "American College of Physicians",
+      "Delhi Medical Council",
+      "Indian Medical Association"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "I want to know is dr. khare registered with any medical councils?",
+    "expected_facts": [
+      "Delhi Medical Council",
+      "Rajasthan Medical Council"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "I want to know has dr. khare held any leadership positions?",
+    "expected_facts": [
+      "Chief Resident",
+      "University of Arizona",
+      "Managing Director",
+      "CEO"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "I want to know what was his role during his residency?",
+    "expected_facts": [
+      "Chief Resident",
+      "South Campus"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "I want to know what is dr. khare doing now?",
+    "expected_facts": [
+      "Health First Multi Specialty Clinic",
+      "Managing Director",
+      "Consultant"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "I want to know where does dr. khare currently practice?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Health First"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "I want to know tell me a summary of dr khare's background.",
+    "expected_facts": [
+      "Internal Medicine",
+      "University of Arizona",
+      "Dwarka"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "I want to know how can i book an appointment?",
+    "expected_facts": [
+      "Walk-in",
+      "Phone",
+      "Practo"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "I want to know does he have publications in international journals?",
+    "expected_facts": [
+      "Cureus",
+      "International",
+      "Journal"
+    ],
+    "expected_document": "research_publications.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Regarding Dr. Khare, who is dr. supreet khare?",
+    "expected_facts": [
+      "Board-certified Internal Medicine physician",
+      "Managing Director and CEO",
+      "University of Arizona residency"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Regarding Dr. Khare, where is dr. khare originally from?",
+    "expected_facts": [
+      "Born and raised in Ajmer, Rajasthan",
+      "St. Anselm's School"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "Regarding Dr. Khare, where did dr. khare complete his residency?",
+    "expected_facts": [
+      "University of Arizona",
+      "Tucson",
+      "Internal Medicine"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Education",
+    "question": "Regarding Dr. Khare, what medical school did dr. khare attend?",
+    "expected_facts": [
+      "R.N.T Medical College",
+      "Udaipur",
+      "MBBS"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Regarding Dr. Khare, where has dr. khare worked previously in india?",
+    "expected_facts": [
+      "Fortis Memorial Research Institute",
+      "Medanta - The Medicity",
+      "Paras Hospital"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Regarding Dr. Khare, what is his role at health first multi specialty clinic?",
+    "expected_facts": [
+      "Managing Director",
+      "CEO",
+      "Internal Medicine Consultant"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinical Experience",
+    "question": "Regarding Dr. Khare, what clinical experience does he have in the usa?",
+    "expected_facts": [
+      "University of Arizona",
+      "Banner University Medical Center"
+    ],
+    "expected_document": "MASTER CV.pdf"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Regarding Dr. Khare, what are the timings for health first multi specialty clinic?",
+    "expected_facts": [
+      "Monday to Saturday",
+      "Morning 9 AM - 1 PM",
+      "Evening 5 PM - 8 PM",
+      "Sunday Closed"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Regarding Dr. Khare, where is health first multi specialty clinic located?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Sector 11",
+      "Pocket 4"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Regarding Dr. Khare, does the clinic offer lab tests and ecg?",
+    "expected_facts": [
+      "Lab tests",
+      "ECG",
+      "Pharmacy"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Research",
+    "question": "Regarding Dr. Khare, what clinical trials has dr. khare been involved in?",
+    "expected_facts": [
+      "Principal Investigator",
+      "COPE Trial",
+      "University of Arizona"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Research",
+    "question": "Regarding Dr. Khare, did dr. khare do any quality improvement research?",
+    "expected_facts": [
+      "Diabetic Ketoacidosis",
+      "Banner University Medical Center",
+      "ICU"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Regarding Dr. Khare, what are some of dr. khare's publications?",
+    "expected_facts": [
+      "Cureus",
+      "Chest Infections",
+      "Abstracts"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Regarding Dr. Khare, did dr. khare publish anything related to covid-19?",
+    "expected_facts": [
+      "COVID-19",
+      "pulmonary complications",
+      "steroids"
+    ],
+    "expected_document": "publications.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "Regarding Dr. Khare, what awards has dr. khare received?",
+    "expected_facts": [
+      "ICMR Scholarship",
+      "Champion's Trophy",
+      "Best Paper Awards"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Awards",
+    "question": "Regarding Dr. Khare, has dr. khare received any academic gold medals?",
+    "expected_facts": [
+      "Gold Medals",
+      "Pathology",
+      "MBBS",
+      "Microbiology"
+    ],
+    "expected_document": "awards_honors.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "Regarding Dr. Khare, what professional organizations is dr. khare a member of?",
+    "expected_facts": [
+      "American College of Physicians",
+      "Delhi Medical Council",
+      "Indian Medical Association"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Memberships",
+    "question": "Regarding Dr. Khare, is dr. khare registered with any medical councils?",
+    "expected_facts": [
+      "Delhi Medical Council",
+      "Rajasthan Medical Council"
+    ],
+    "expected_document": "professional_memberships.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "Regarding Dr. Khare, has dr. khare held any leadership positions?",
+    "expected_facts": [
+      "Chief Resident",
+      "University of Arizona",
+      "Managing Director",
+      "CEO"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Leadership",
+    "question": "Regarding Dr. Khare, what was his role during his residency?",
+    "expected_facts": [
+      "Chief Resident",
+      "South Campus"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "Regarding Dr. Khare, what is dr. khare doing now?",
+    "expected_facts": [
+      "Health First Multi Specialty Clinic",
+      "Managing Director",
+      "Consultant"
+    ],
+    "expected_document": "career_timeline.txt"
+  },
+  {
+    "category": "Current Position",
+    "question": "Regarding Dr. Khare, where does dr. khare currently practice?",
+    "expected_facts": [
+      "Dwarka",
+      "New Delhi",
+      "Health First"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Biography",
+    "question": "Regarding Dr. Khare, tell me a summary of dr khare's background.",
+    "expected_facts": [
+      "Internal Medicine",
+      "University of Arizona",
+      "Dwarka"
+    ],
+    "expected_document": "doctor_profile.txt"
+  },
+  {
+    "category": "Clinic Information",
+    "question": "Regarding Dr. Khare, how can i book an appointment?",
+    "expected_facts": [
+      "Walk-in",
+      "Phone",
+      "Practo"
+    ],
+    "expected_document": "clinic_info.txt"
+  },
+  {
+    "category": "Publications",
+    "question": "Regarding Dr. Khare, does he have publications in international journals?",
+    "expected_facts": [
+      "Cureus",
+      "International",
+      "Journal"
+    ],
+    "expected_document": "research_publications.txt"
+  }
+]

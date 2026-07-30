@@ -1,0 +1,1726 @@
+{
+  "metrics": {
+    "avg_latency": 3521.020843000024,
+    "avg_bypass_lat": 1254.0689320513147,
+    "avg_groq_lat": 0.0,
+    "avg_ollama_lat": 11558.39579999999,
+    "bypass_count": 78,
+    "avg_recall": 0.81,
+    "avg_precision": 0.77,
+    "avg_hallucination": 0.1195,
+    "avg_factual": 0.89
+  },
+  "categories": {
+    "Biography": {
+      "total": 12,
+      "factual": 0.9125,
+      "recall": 1.0
+    },
+    "Education": {
+      "total": 12,
+      "factual": 1.0,
+      "recall": 1.0
+    },
+    "Clinical Experience": {
+      "total": 12,
+      "factual": 0.6291666666666667,
+      "recall": 0.5833333333333334
+    },
+    "Clinic Information": {
+      "total": 8,
+      "factual": 0.96875,
+      "recall": 1.0
+    },
+    "Research": {
+      "total": 12,
+      "factual": 0.7291666666666666,
+      "recall": 0.75
+    },
+    "Publications": {
+      "total": 8,
+      "factual": 0.75,
+      "recall": 1.0
+    },
+    "Awards": {
+      "total": 16,
+      "factual": 1.0,
+      "recall": 0.5
+    },
+    "Memberships": {
+      "total": 8,
+      "factual": 1.0,
+      "recall": 1.0
+    },
+    "Leadership": {
+      "total": 12,
+      "factual": 1.0,
+      "recall": 0.75
+    }
+  },
+  "results": [
+    {
+      "category": "Biography",
+      "question": "Who is Dr. Supreet Khare?",
+      "latency": 1259.4748999999865,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 SHORT BIO  Dr. Supreet Khare is a physician, researc..."
+    },
+    {
+      "category": "Biography",
+      "question": "Has Dr. Khare published any fiction novels?",
+      "latency": 17705.63940000011,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare has written a fiction novel titled \"Tales of Enkanto - A Paradoxical Beginnin..."
+    },
+    {
+      "category": "Biography",
+      "question": "What languages does Dr. Khare speak?",
+      "latency": 1300.1854000003732,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 0.75,
+      "hallucination": 0.25,
+      "sources": [
+        "MASTER CV.pdf",
+        "doctor_profile.txt",
+        "professional_memberships.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Education",
+      "question": "Where did Dr. Khare complete his residency?",
+      "latency": 1316.2354999994932,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "career_timeline.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    },
+    {
+      "category": "Education",
+      "question": "What medical school did Dr. Khare attend for MBBS?",
+      "latency": 1317.8593000002365,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 CLINICAL EXPERTISE  Dr. Khare's areas of expertise i..."
+    },
+    {
+      "category": "Education",
+      "question": "What professional certificates does Dr. Khare hold?",
+      "latency": 1266.6904999996405,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 CLINICAL EXPERTISE  Dr. Khare's areas of expertise i..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Where did Dr. Khare work before moving to the USA?",
+      "latency": 1300.1487999999881,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "clinic_info.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Did he have a role at Lompoc Valley Medical Center?",
+      "latency": 14199.822599999607,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare held the position of Medical Director \u2013 Occupational & Environmental Medicine..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Where did he work as an Occupational Medicine Resident?",
+      "latency": 1296.5609000002587,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "clinic_info.txt",
+        "career_timeline.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 anagement initiatives 07/2023 \u2013 07/2025 University o..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "Where is Compendious Med Works located?",
+      "latency": 1289.5619999999326,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare - Clinic Information Practice: Com..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "Where is Health First Multi Specialty Clinic located?",
+      "latency": 1240.3199000000313,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Research",
+      "question": "What clinical trials has Dr. Khare been involved in?",
+      "latency": 1280.6297999995877,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "Did Dr. Khare do any quality improvement research in the ICU?",
+      "latency": 1317.844399999558,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "Where was he a Research Fellow?",
+      "latency": 8008.804900000541,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but based on the information provided, I couldn't find details about where Dr. Supreet Kh..."
+    },
+    {
+      "category": "Publications",
+      "question": "What journal did he publish in regarding COVID-19?",
+      "latency": 1317.1041000005062,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "8142248431b7_MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Publications",
+      "question": "What was the topic of his paper 'Pseudodementia'?",
+      "latency": 12177.041299999473,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "publications.txt",
+        "MASTER CV.pdf",
+        "research_publications.txt"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "The topic of his paper 'Pseudodementia' is Pseudodementia: An Artefact or a Grey Area of Geropsychia..."
+    },
+    {
+      "category": "Awards",
+      "question": "Did he receive the ICMR Research Scholarship?",
+      "latency": 1323.6077999999907,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "publications.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Who awarded him the Champion's Trophy?",
+      "latency": 1246.7503999996552,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "doctor_profile.txt",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Has Dr. Khare received any academic gold medals?",
+      "latency": 1239.4818000002488,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Was he nominated for a Young Scientist award?",
+      "latency": 1334.6172000001388,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "awards_honors.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 arch scholarship consecutively for 5 years for his r..."
+    },
+    {
+      "category": "Memberships",
+      "question": "What professional organizations is Dr. Khare a member of in the US?",
+      "latency": 1269.8350999999093,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Memberships",
+      "question": "Is Dr. Khare registered with any medical councils in India?",
+      "latency": 1312.0641999994405,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "MASTER CV.pdf",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Leadership",
+      "question": "What was his role during his residency at South Campus?",
+      "latency": 1281.927099999848,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "8142248431b7_MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Has he held any leadership positions at medical student associations?",
+      "latency": 1247.3268999992797,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "doctor_profile.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 LEADERSHIP & PROFESSIONAL ROLES  \u2022 Council of Reside..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Did he have a leadership role at California Medical Behavioral Health?",
+      "latency": 14623.667800000476,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare held the position of Chief Executive Officer (CEO) at California Medical Beha..."
+    },
+    {
+      "category": "Biography",
+      "question": "Can you tell me: Who is Dr. Supreet Khare?",
+      "latency": 1274.9322999998185,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 DR. SUPREET KHARE \u2014 PROFESSIONAL PROFILE  ABOUT DR. ..."
+    },
+    {
+      "category": "Biography",
+      "question": "Can you tell me: Has Dr. Khare published any fiction novels?",
+      "latency": 14542.501699999775,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare has authored a fiction novel titled \"Tales of Enkanto - A Paradoxical Beginni..."
+    },
+    {
+      "category": "Biography",
+      "question": "Can you tell me: What languages does Dr. Khare speak?",
+      "latency": 1275.306300000011,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "doctor_profile.txt",
+        "professional_memberships.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Education",
+      "question": "Can you tell me: Where did Dr. Khare complete his residency?",
+      "latency": 1253.5201999999117,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "career_timeline.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    },
+    {
+      "category": "Education",
+      "question": "Can you tell me: What medical school did Dr. Khare attend for MBBS?",
+      "latency": 1257.8614000003654,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "awards_honors.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 CLINICAL EXPERTISE  Dr. Khare's areas of expertise i..."
+    },
+    {
+      "category": "Education",
+      "question": "Can you tell me: What professional certificates does Dr. Khare hold?",
+      "latency": 1283.6678000003303,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 CLINICAL EXPERTISE  Dr. Khare's areas of expertise i..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Can you tell me: Where did Dr. Khare work before moving to the USA?",
+      "latency": 1279.830000000402,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "clinic_info.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Can you tell me: Did he have a role at Lompoc Valley Medical Center?",
+      "latency": 8714.863600000172,
+      "recall": 1.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but based on the information provided, there is no detail about Dr. Supreet Khare having ..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Can you tell me: Where did he work as an Occupational Medicine Resident?",
+      "latency": 6857.202199999847,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but based on the information provided, I couldn't find details about where he worked as a..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "Can you tell me: Where is Compendious Med Works located?",
+      "latency": 1288.318199999594,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare - Clinic Information Practice: Com..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "Can you tell me: Where is Health First Multi Specialty Clinic located?",
+      "latency": 1295.4371000005267,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Research",
+      "question": "Can you tell me: What clinical trials has Dr. Khare been involved in?",
+      "latency": 1292.3964999999953,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "Can you tell me: Did Dr. Khare do any quality improvement research in the ICU?",
+      "latency": 1274.9303999999029,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "Can you tell me: Where was he a Research Fellow?",
+      "latency": 7372.115999999551,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but based on the information provided, I couldn't find where Dr. Supreet Khare was a Rese..."
+    },
+    {
+      "category": "Publications",
+      "question": "Can you tell me: What journal did he publish in regarding COVID-19?",
+      "latency": 9316.439399999581,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "8142248431b7_MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Dr. Khare published about COVID-19 pulmonary complications in international journals like Cureus...."
+    },
+    {
+      "category": "Publications",
+      "question": "Can you tell me: What was the topic of his paper 'Pseudodementia'?",
+      "latency": 7264.007700000548,
+      "recall": 1.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but there is no information about the paper 'Pseudodementia' in the available documents. ..."
+    },
+    {
+      "category": "Awards",
+      "question": "Can you tell me: Did he receive the ICMR Research Scholarship?",
+      "latency": 1259.248800000023,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "publications.txt",
+        "awards_honors.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Research Assistant  Dr. Khare participated in advanc..."
+    },
+    {
+      "category": "Awards",
+      "question": "Can you tell me: Who awarded him the Champion's Trophy?",
+      "latency": 1242.8464999993594,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "doctor_profile.txt",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Can you tell me: Has Dr. Khare received any academic gold medals?",
+      "latency": 1265.1449000004504,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Can you tell me: Was he nominated for a Young Scientist award?",
+      "latency": 1257.2981000002983,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "clinic_info.txt",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 arch scholarship consecutively for 5 years for his r..."
+    },
+    {
+      "category": "Memberships",
+      "question": "Can you tell me: What professional organizations is Dr. Khare a member of in the US?",
+      "latency": 1330.573799999911,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Memberships",
+      "question": "Can you tell me: Is Dr. Khare registered with any medical councils in India?",
+      "latency": 1283.13210000033,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Can you tell me: What was his role during his residency at South Campus?",
+      "latency": 1230.6272000005265,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "8142248431b7_MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Can you tell me: Has he held any leadership positions at medical student associations?",
+      "latency": 17842.585399999734,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare has held leadership positions at medical student associations. He was elected..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Can you tell me: Did he have a leadership role at California Medical Behavioral Health?",
+      "latency": 14826.450600000499,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare held the position of Chief Executive Officer (CEO) at California Medical Beha..."
+    },
+    {
+      "category": "Biography",
+      "question": "I want to know who is dr. supreet khare?",
+      "latency": 1237.5107999996544,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 SHORT BIO  Dr. Supreet Khare is a physician, researc..."
+    },
+    {
+      "category": "Biography",
+      "question": "I want to know has dr. khare published any fiction novels?",
+      "latency": 14519.582699999773,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare has authored a fiction novel titled \"Tales of Enkanto - A Paradoxical Beginni..."
+    },
+    {
+      "category": "Biography",
+      "question": "I want to know what languages does dr. khare speak?",
+      "latency": 1249.596499999825,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 0.2,
+      "hallucination": 1.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "doctor_profile.txt",
+        "professional_memberships.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Education",
+      "question": "I want to know where did dr. khare complete his residency?",
+      "latency": 1243.768999999702,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "career_timeline.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    },
+    {
+      "category": "Education",
+      "question": "I want to know what medical school did dr. khare attend for mbbs?",
+      "latency": 1257.7782000007574,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "clinic_info.txt",
+        "awards_honors.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Education",
+      "question": "I want to know what professional certificates does dr. khare hold?",
+      "latency": 1234.1403000000355,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 CLINICAL EXPERTISE  Dr. Khare's areas of expertise i..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "I want to know where did dr. khare work before moving to the usa?",
+      "latency": 1220.7085999998526,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "clinic_info.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "I want to know did he have a role at lompoc valley medical center?",
+      "latency": 9210.526600000776,
+      "recall": 1.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but there's no information about Dr. Supreet Khare having a role at Lompoc Valley Medical..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "I want to know where did he work as an occupational medicine resident?",
+      "latency": 6845.21229999973,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but based on the information provided, I couldn't find details about where he worked as a..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "I want to know where is compendious med works located?",
+      "latency": 1217.5889000000097,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare - Clinic Information Practice: Com..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "I want to know where is health first multi specialty clinic located?",
+      "latency": 1244.8371000000407,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "doctor_profile.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Research",
+      "question": "I want to know what clinical trials has dr. khare been involved in?",
+      "latency": 1279.9454000005426,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "I want to know did dr. khare do any quality improvement research in the icu?",
+      "latency": 1281.6726999999446,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "I want to know where was he a research fellow?",
+      "latency": 8087.962899999184,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "I'm sorry, but there is no information about where he was a research fellow in the provided document..."
+    },
+    {
+      "category": "Publications",
+      "question": "I want to know what journal did he publish in regarding covid-19?",
+      "latency": 9639.486099999885,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "8142248431b7_MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Dr. Khare's publications on COVID-19 pulmonary complications were focused on international journals ..."
+    },
+    {
+      "category": "Publications",
+      "question": "I want to know what was the topic of his paper 'pseudodementia'?",
+      "latency": 6758.374300000469,
+      "recall": 1.0,
+      "precision": 0.0,
+      "factual_coverage": 0.0,
+      "hallucination": 1.0,
+      "sources": [],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "The document does not contain information about the paper titled 'pseudodementia'. Would you like to..."
+    },
+    {
+      "category": "Awards",
+      "question": "I want to know did he receive the icmr research scholarship?",
+      "latency": 1253.3729999995558,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "publications.txt",
+        "awards_honors.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Research Assistant  Dr. Khare participated in advanc..."
+    },
+    {
+      "category": "Awards",
+      "question": "I want to know who awarded him the champion's trophy?",
+      "latency": 1227.2389999998268,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "doctor_profile.txt",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "I want to know has dr. khare received any academic gold medals?",
+      "latency": 1303.4973000003447,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "I want to know was he nominated for a young scientist award?",
+      "latency": 11537.512500000048,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "publications.txt",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare was nominated as the Young Scientist in 2013...."
+    },
+    {
+      "category": "Memberships",
+      "question": "I want to know what professional organizations is dr. khare a member of in the us?",
+      "latency": 1265.7837999995536,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Memberships",
+      "question": "I want to know is dr. khare registered with any medical councils in india?",
+      "latency": 1178.2389999998486,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Leadership",
+      "question": "I want to know what was his role during his residency at south campus?",
+      "latency": 1234.160900000461,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "8142248431b7_MASTER CV.pdf",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Leadership",
+      "question": "I want to know has he held any leadership positions at medical student associations?",
+      "latency": 18856.074499999522,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare has held several leadership positions at medical student associations. He was..."
+    },
+    {
+      "category": "Leadership",
+      "question": "I want to know did he have a leadership role at california medical behavioral health?",
+      "latency": 15378.83310000052,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf",
+        "8142248431b7_MASTER CV.pdf"
+      ],
+      "bypassed": false,
+      "model": "qwen2.5:3b",
+      "answer": "Yes, Dr. Supreet Khare held the position of Chief Executive Officer (CEO) at California Medical Beha..."
+    },
+    {
+      "category": "Biography",
+      "question": "Regarding Dr. Khare, who is dr. supreet khare?",
+      "latency": 1213.8341999998374,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 DR. SUPREET KHARE \u2014 PROFESSIONAL PROFILE  ABOUT DR. ..."
+    },
+    {
+      "category": "Biography",
+      "question": "Regarding Dr. Khare, has dr. khare published any fiction novels?",
+      "latency": 1225.961300000563,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "doctor_profile.txt",
+        "research_publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Biography",
+      "question": "Regarding Dr. Khare, what languages does dr. khare speak?",
+      "latency": 1161.1204000000726,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "publications.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Education",
+      "question": "Regarding Dr. Khare, where did dr. khare complete his residency?",
+      "latency": 1219.4499000006545,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "MASTER CV.pdf",
+        "career_timeline.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    },
+    {
+      "category": "Education",
+      "question": "Regarding Dr. Khare, what medical school did dr. khare attend for mbbs?",
+      "latency": 1204.5099000006303,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "MASTER CV.pdf",
+        "research_publications.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is a board-certified physician and..."
+    },
+    {
+      "category": "Education",
+      "question": "Regarding Dr. Khare, what professional certificates does dr. khare hold?",
+      "latency": 1223.8188000001173,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "clinic_info.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 DR. SUPREET KHARE \u2014 PROFESSIONAL PROFILE  OVERVIEW  ..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Regarding Dr. Khare, where did dr. khare work before moving to the usa?",
+      "latency": 1234.3917000007423,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 0.75,
+      "hallucination": 0.25,
+      "sources": [
+        "career_timeline.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Regarding Dr. Khare, did he have a role at lompoc valley medical center?",
+      "latency": 1246.9612000004417,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 0.8,
+      "hallucination": 0.2,
+      "sources": [
+        "clinic_info.txt",
+        "research_publications.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    },
+    {
+      "category": "Clinical Experience",
+      "question": "Regarding Dr. Khare, where did he work as an occupational medicine resident?",
+      "latency": 1174.6464000007109,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "career_timeline.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "Regarding Dr. Khare, where is compendious med works located?",
+      "latency": 1230.9973000001264,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare - Clinic Information Practice: Com..."
+    },
+    {
+      "category": "Clinic Information",
+      "question": "Regarding Dr. Khare, where is health first multi specialty clinic located?",
+      "latency": 1248.9120000000185,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 0.75,
+      "hallucination": 1.0,
+      "sources": [
+        "career_timeline.txt",
+        "MASTER CV.pdf",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Research",
+      "question": "Regarding Dr. Khare, what clinical trials has dr. khare been involved in?",
+      "latency": 1254.4860999996672,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "Regarding Dr. Khare, did dr. khare do any quality improvement research in the icu?",
+      "latency": 1223.1906999995772,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Research",
+      "question": "Regarding Dr. Khare, where was he a research fellow?",
+      "latency": 1203.189800000473,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 0.75,
+      "hallucination": 0.25,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Publications",
+      "question": "Regarding Dr. Khare, what journal did he publish in regarding covid-19?",
+      "latency": 1216.5620999994644,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "research_publications.txt",
+        "publications.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare has extensive research experience. He was ..."
+    },
+    {
+      "category": "Publications",
+      "question": "Regarding Dr. Khare, what was the topic of his paper 'pseudodementia'?",
+      "latency": 1273.592199999257,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "publications.txt",
+        "research_publications.txt",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 PEER-REVIEWED PUBLICATIONS  Selected Publications In..."
+    },
+    {
+      "category": "Awards",
+      "question": "Regarding Dr. Khare, did he receive the icmr research scholarship?",
+      "latency": 1267.9391000001488,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "publications.txt",
+        "awards_honors.txt",
+        "clinic_info.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Research Assistant  Dr. Khare participated in advanc..."
+    },
+    {
+      "category": "Awards",
+      "question": "Regarding Dr. Khare, who awarded him the champion's trophy?",
+      "latency": 1181.3916000000972,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "clinic_info.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Regarding Dr. Khare, has dr. khare received any academic gold medals?",
+      "latency": 1245.671499999844,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Awards",
+      "question": "Regarding Dr. Khare, was he nominated for a young scientist award?",
+      "latency": 1203.489300000001,
+      "recall": 0.0,
+      "precision": 0.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "awards_honors.txt",
+        "clinic_info.txt",
+        "publications.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare has received numerous awards inclu..."
+    },
+    {
+      "category": "Memberships",
+      "question": "Regarding Dr. Khare, what professional organizations is dr. khare a member of in the us?",
+      "latency": 1238.882300000114,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Memberships",
+      "question": "Regarding Dr. Khare, is dr. khare registered with any medical councils in india?",
+      "latency": 1194.544799999676,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "professional_memberships.txt",
+        "MASTER CV.pdf",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Supreet Khare is an active member of the America..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Regarding Dr. Khare, what was his role during his residency at south campus?",
+      "latency": 1201.3049999995928,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "career_timeline.txt",
+        "clinic_info.txt",
+        "MASTER CV.pdf"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Career Timeline for Dr. Supreet Khare: After complet..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Regarding Dr. Khare, has he held any leadership positions at medical student associations?",
+      "latency": 1177.3152000005211,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "doctor_profile.txt",
+        "doctor_profile.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 DR. SUPREET KHARE \u2014 PROFESSIONAL PROFILE  OVERVIEW  ..."
+    },
+    {
+      "category": "Leadership",
+      "question": "Regarding Dr. Khare, did he have a leadership role at california medical behavioral health?",
+      "latency": 1218.0758000004062,
+      "recall": 1.0,
+      "precision": 1.0,
+      "factual_coverage": 1.0,
+      "hallucination": 0.0,
+      "sources": [
+        "clinic_info.txt",
+        "clinic_info.txt",
+        "doctor_profile.txt"
+      ],
+      "bypassed": true,
+      "model": "bypass",
+      "answer": "According to Dr. Khare's verified documents:  \u2022 Dr. Khare completed his ACGME-accredited Internal Me..."
+    }
+  ]
+}
