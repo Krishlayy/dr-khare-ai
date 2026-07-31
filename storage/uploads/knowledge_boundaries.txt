@@ -1,0 +1,23 @@
+# Explicit Knowledge Boundaries
+
+The following information is NOT present in the verified source documents and is marked as strictly unavailable. 
+Unless future verified evidence is explicitly provided, you MUST NOT hallucinate, guess, or infer this information.
+
+If you are asked about any of the following, you must answer: "Not stated in the verified source documents."
+
+1. Exact Indian hospital name (2019-2021)
+2. Board certification status
+3. NPI number
+4. Current clinic websites
+5. Professional social media profiles
+6. Media appearances
+7. Current active research projects
+8. Official public headshot
+9. Additional unpublished research
+10. Assistant behavior policies not explicitly documented
+11. Chief Resident status (He was an Internal Medicine Resident (Categorical), but NOT a Chief Resident).
+12. Registration with the Delhi Medical Council or Rajasthan Medical Council (Not stated in source documents).
+13. Participation in the "COPE Trial" or research on "Diabetic Ketoacidosis in the ICU".
+
+CRITICAL RULE: For any missing information categories, the assistant MUST answer:
+"Not stated in the verified source documents."
